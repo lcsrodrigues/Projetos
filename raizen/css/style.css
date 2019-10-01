@@ -1,0 +1,201 @@
+@font-face { font-family: DINPro; src: url(../fonts/DINPro-Regular_13937.ttf) }
+
+body{margin: 0}
+
+#top {top: 0; width: 100%; height: 210px; font-family: DINPro; color: #FFFFFF}
+#top #top-user-bar {background: #EA368E; height:auto; float: right; width:50%; position: relative; font-size:12px}
+#top #top-user-bar::before {content: ""; width: 0; height: 0; border-top: 0 solid transparent; border-bottom: 15px solid transparent; border-left: 60px solid #781E77; left: -15px; position: absolute;}
+#top #top-user-bar .top-user-recepcao-usuario{width:28%; float:left; min-height:32px; text-align:right; padding:1% 1% 0 1%; font-size:12px}
+#top #top-user-bar .top-user-minhas-tarefas{float:left; height:28px; padding:2% 1% 0 1%; background-color:#D33180}
+#top #top-main-bar {background: #781E77; height: 120px}
+#top #top-menu-bar span{font-weight:bold}
+#top #top-main-bar .logo-top-main{background: #FFF url(../images/raizen-logo.png) no-repeat center; height: 120px; width:150px; margin:0 0 0 10.8%; float:left}
+#top #top-main-bar .top-main-menu{height: 60px; width:400px; margin:4% 0 0 55%; position:absolute; font-size:14px}
+#top #top-main-bar .top-main-menu span{cursor:pointer}
+#top #top-menu-bar {background: #334654; height: 42px; font-size:14px; overflow:hidden}
+#top #top-menu-bar [class*="top-menu-item-"]:hover{cursor:pointer; background: #4B6273}
+#top #top-menu-bar .top-menu-item-1{padding:15px; float:left; width:5%; text-align:center; margin: 0 0 0 10.8%;}
+#top #top-menu-bar .top-menu-item-2{padding:15px; float:left; width:15%; text-align:center}
+#top #top-menu-bar .top-menu-item-3{padding:15px; float:left; width:5%; text-align:center}
+#top #top-menu-bar .top-menu-item-4{padding:15px; float:left; width:5%; text-align:center}
+#top #top-menu-orientacao-bar {background: #334654; height: 5px;}
+#top #top-menu-orientacao-bar .top-menu-orientacao-item-1{background-color: #F47920; height:5px; padding:0 15px 0 15px; float:left; width:5%; margin: 0 0 0 10.8%;}
+#top #top-menu-orientacao-bar .top-menu-orientacao-item-2{background-color: #1FC0DA; height:5px; padding:0 15px 0 15px; float:left; width:15%;}
+#top #top-menu-orientacao-bar .top-menu-orientacao-item-3{background-color: #EA368E; height:5px; padding:0 15px 0 15px; float:left; width:5%;}
+#top #top-menu-orientacao-bar .top-menu-orientacao-item-4{background-color: #FDB515; height:5px; padding:0 15px 0 15px; float:left; width:5%;}
+#top #ticker {background: #F4F4F4; height: 40px}
+#top #ticker .container {max-width: 100%;}
+#top #ticker .container .wrap{width: 100%; white-space: nowrap; overflow: hidden; font-size: 0; background: #F4F4F4; border-radius: 3px; height: 40px}
+#top #ticker .container .wrap .jctkr-label{padding: 0 17px; line-height: 40px; background: #F4F4F4; font-style: italic; font-size: 19px; text-shadow: 0 1px 2px rgba(69, 78, 140,1); cursor: default}
+#top #ticker .container .wrap [class*="js-conveyor-"] ul li{padding: 5px 10px; line-height: 5px; font-size: 16px; color: #781E77; background-color:#f4f4f4}
+#top #ticker .container .wrap [class*="js-conveyor-"] ul li div{padding:10px; border: 1px solid #E8ECF4; box-sizing: border-box; border-bottom:5px solid #EA368E; background-color:#fff}
+#top #ticker .container .wrap [class*="js-conveyor-"] ul li div span.ticker-titulo{color:#781E77}
+#top #ticker .container .wrap [class*="js-conveyor-"] ul li div span.ticker-data-hora{text-align: right; color: #ABABAB;}
+#top #ticker .container .wrap [class*="js-conveyor-"] ul li div span a{text-decoration:none; text-decoration-color:none}
+
+#mega-menu{width:75%; height:35%; left:10.8%; position:absolute; top:22%; z-index:3; background: #4B6273; font-family:DINPro; color:#BCECF4; display:none;}
+#mega-menu .mega-menu-header-side-left{ float:left; width:47%; padding:1.5% 0.5% 1.5% 2.5%; border-bottom:1px solid #5D7181; font-size:18px;}
+#mega-menu .mega-menu-header-side-right{ float:left; width:47%; padding:1.5% 0.5% 1.5% 2.5%; border-bottom:1px solid #5D7181; font-size:18px;}
+#mega-menu .mega-menu-container{ margin:5% 0 0 0; }
+#mega-menu .mega-menu-container .mega-menu-content{ float: left; width:22%; padding:0 0.5% 0 2.5%; font-size:12px;}
+#mega-menu .mega-menu-container .mega-menu-content ul{ list-style-type:none; margin:0; padding:0; color:#FFF}
+#mega-menu .mega-menu-container .mega-menu-content ul li{ padding: 3% 0; }
+#mega-menu .mega-menu-container .mega-menu-content ul li a{ cursor:pointer; }
+
+#content {min-height: 482; left: 10%; width: 80%; position: relative; font-family: DINPro; overflow:hidden; padding:1%;}
+#content .title-menu-1 { text-transform: uppercase; color:#781E77; font-size:16px }
+#content .title-menu-2 { text-transform: uppercase; color:#781E77; font-size:27px; font-weight:bold }
+/*#content .poligono-trapezio { position:absolute; left:-1%; top:90%;}*/
+#content .colun-x25{width:21%; margin:1%; float:left}
+#content .colun-x33{width:30.33%; margin:1%; float:left;}
+#content .colun-x50{width:46%; margin:1%; float:left}
+#content .colun-x66{width:62.66%; margin:1%; float:left}
+#content .colun-x100{width:96%; margin:1%; float:left}
+
+#content .webdoor{height:411px}
+
+#content .blog-luis{height:406px}
+#content .blog-luis .header-item{background:#781E77; height:25%; width:100%; border-bottom:5px solid #FDB515}
+#content .blog-luis .header-item .cabeca-luis{ position: absolute; width: 10%; top: 0.5%; }
+#content .blog-luis .content-item{height:45%;}
+#content .blog-luis .content-item img{width:100%; height:100%}
+#content .blog-luis .chamada-item { color:#781E77; font-size:21px; font-weight:bold; height:20%; margin:2.5% 0 0 0}
+#content .blog-luis .footer-item{height:10%; width:100%; margin:2.5% 0 0 0}
+#content .blog-luis .footer-item span{ color:#1FC0DA; font-size:13px }
+
+#content .destaques{height:auto; background:none}
+#content .destaques .destaque-header{ }
+#content .destaques .destaque-header img{ width:100%; height:30% }
+#content .destaques .destaque-content{ padding:5%; font-size:21px; font-weight:bold; color:#781E77 }
+#content .destaques .destaque-footer{ padding:0 5% }
+#content .destaques .destaque-footer .elm-interacao-destaque{ overflow:hidden;}
+#content .destaques .destaque-footer .elm-interacao-destaque .elm-comentario{ width:30%; float:left }
+#content .destaques .destaque-footer .elm-interacao-destaque .elm-curtir{ width:30%; float:left }
+
+#content .clipping { background:none; border: 1px solid #E8ECF4; overflow:hidden; height:auto}
+#content .clipping .clipping-titulo{ background: #781E77; padding:3%; color:#FFF }
+#content .clipping .clipping-titulo .clipping-titulo-1{font-size:13px}
+#content .clipping .clipping-titulo .clipping-titulo-2{font-size:22px}
+#content .clipping .clipping-content{ }
+#content .clipping .clipping-content ul{ list-style-type:none; margin:0; padding:5% }
+#content .clipping .clipping-content ul li { margin:0 0 5% 0; }
+#content .clipping .clipping-content ul li hr{ margin:10% 0 0 0; border: 1px solid #E8ECF4;}
+#content .clipping .clipping-content ul li .clipping-icone{ width:5%; float:left; text-align:center; margin:2% 0 0 0 }
+#content .clipping .clipping-content ul li .clipping-title{ width:95%; float:left; margin:0 0 2% 0 }
+#content .clipping .clipping-content ul li .clipping-title .titulo-item{ color:#1FC0DA; font-size:14px; margin:0 0 0 3% }
+#content .clipping .clipping-content ul li .clipping-data {  }
+#content .clipping .clipping-content ul li .clipping-data .data-item{ color:#ABB4C2; font-size:12px; margin:0 0 0 3% }
+#content .clipping .clipping-footer{ padding:5% }
+#content .clipping .clipping-footer .btn-ver-todos { background:#781E77; color:#FFF; width:max-content; padding:3%}
+
+#content .noticias-tp-1{height:66; background:none}
+#content .noticias-tp-1 .side-left-tp-1{float:left; width:30%;}
+#content .noticias-tp-1 .side-left-tp-1 img{width:100%; height:66px;}
+#content .noticias-tp-1 .side-right-tp-1{ float:left; width:65%; margin:0 2.5%;}
+#content .noticias-tp-1 .side-right-tp-1 .titulo-tp-1{width:100%; height:75%}
+#content .noticias-tp-1 .side-right-tp-1 .titulo-tp-1 span{ font-size:15px; color:#781E77; font-weight:bold }
+#content .noticias-tp-1 .side-right-tp-1 .elm-interacao-tp-1{width:100%; height:25%}
+#content .noticias-tp-1 .side-right-tp-1 .elm-interacao-tp-1 .elm-comentario{float:left; margin: 0 5% 0 0}
+#content .noticias-tp-1 .side-right-tp-1 .elm-interacao-tp-1 .elm-comentario svg{cursor:pointer}
+#content .noticias-tp-1 .side-right-tp-1 .elm-interacao-tp-1 .elm-curtir{float:left;}
+#content .noticias-tp-1 .side-right-tp-1 .elm-interacao-tp-1 .elm-curtir svg{cursor:pointer}
+
+#content .noticias-tp-2{height:auto; border:1px solid #E8ECF4; border-top: 5px solid #1FC0DA; background:none}
+#content .noticias-tp-2 .titulo-tp-2{height:5%; padding: 3% 0 0 3%}
+#content .noticias-tp-2 .titulo-tp-2 span{ font-size:18px; color:#781E77; text-transform:uppercase; font-weight:bold }
+#content .noticias-tp-2 .img-tp-2{ }
+#content .noticias-tp-2 .img-tp-2 img{ height:30%; width:100%;}
+#content .noticias-tp-2 .chamada-tp-2{height:10%; font-size:15px; color:#334654; padding: 3% 0 0 3%}
+#content .noticias-tp-2 .link-tp-2{height:5%; padding: 3% 0 0 3%}
+#content .noticias-tp-2 .link-tp-2 a{color:#1FC0DA; font-size:13px}
+
+#content .resultados-raizen {height:auto; background:none; border:1px solid #E8ECF4; }
+#content .resultados-raizen .resultado-titulo { background: #781E77; padding:3%; color:#FFF;}
+#content .resultados-raizen .resultado-titulo .resultado-titulo-1{font-size:13px}
+#content .resultados-raizen .resultado-titulo .resultado-titulo-2{font-size:22px}
+#content .resultados-raizen .resultado-subtitulo{background: #EDEDED; padding: 3%}
+#content .resultados-raizen .resultado { padding: 5% 0 0 0; font-size: 14px; }
+#content .resultados-raizen .resultado ul{ list-style-type:none; margin:0; padding:0; }
+#content .resultados-raizen .resultado ul li{ overflow:hidden; margin:0 0 5% 0}
+#content .resultados-raizen .resultado ul li .part-1{ width:10%; float:left; padding:1% 0 0 0; text-align:center}
+#content .resultados-raizen .resultado ul li .part-2{ width:40%; float:left; }
+#content .resultados-raizen .resultado ul li .part-2 span { text-align:center; top:30%; font-weight:bold;}
+#content .resultados-raizen .resultado ul li .part-3{ float:left; font-size: 11px; width:30%; text-align:right}
+#content .resultados-raizen .resultado ul li .part-4{ float:left; font-size: 11px; width:15%; text-align:right}
+#content .resultados-raizen .resultado ul li .part-4 .semafaro{ width:70%; height:5px; border-radius:100px; text-align:right; margin:5% 0 0 30% }
+
+#content .previsao-tempo {height:auto; background:none; border:1px solid #E8ECF4; }
+#content .previsao-tempo .previsao-titulo { background: #781E77; padding:3%; color:#FFF}
+#content .previsao-tempo .previsao-titulo .previsao-titulo-1{font-size:13px}
+#content .previsao-tempo .previsao-titulo .previsao-titulo-2{font-size:22px}
+#content .previsao-tempo .previsao-subtitulo {background: #EDEDED; padding: 3%}
+#content .previsao-tempo .previsao-subtitulo select{border-color: snow; background: none; border: 0; font-family:DINPro!important; font-size:11px!important; -webkit-appearance: none; -moz-appearance: none;}
+#content .previsao-tempo .previsao-subtitulo select:focus{outline:none}
+#content .previsao-tempo .previsao {overflow:hidden; font-weight:bold}
+#content .previsao-tempo .previsao ul{list-style-type:none; margin:0; padding:3%;}
+#content .previsao-tempo .previsao ul li{overflow:hidden; margin:0 0 5% 0; background:#FFFFFF}
+#content .previsao-tempo .previsao ul li:first-child{ }
+#content .previsao-tempo .previsao ul li:first-child .dia-data{font-size:20px; width:65%; margin:5% 0 0 0 }
+#content .previsao-tempo .previsao ul li:first-child .temperatura-max{font-size:46px; width:19%;}
+#content .previsao-tempo .previsao ul li:first-child .temperatura-min{ margin:10% 0 0 0 }
+#content .previsao-tempo .previsao ul li .dia-data{width:77%; float:left; padding:0 0 5% 0; font-size:12px; color: #334654;}
+#content .previsao-tempo .previsao ul li .temperatura-max{width:7%; float:left; text-align:center; padding:0 1.5% 3% 1.5%; font-size:16px; color:#334654}
+#content .previsao-tempo .previsao ul li .temperatura-min{width:7%; float:left; text-align:center; padding:0 1.5% 3% 1.5%; font-size:16px; color:#8C9DA9}
+#content .previsao-tempo .aviso { font-size:12px; margin:0 0 5% 0; overflow:hidden; padding:3% }
+#content .previsao-tempo .aviso .aviso-icone { width:6%; float:left; text-align:center}
+#content .previsao-tempo .aviso .aviso-titulo { width:94%; font-weight:bold; float:left }
+#content .previsao-tempo .aviso .aviso-conteudo { margin:0 0 0 6% }
+
+#bottom {width: 100%; font-family: DINPro; overflow:hidden; padding:2% 0; background:#F3F3F3}
+#bottom .bottom-side-left {width: 50%; height: 65px; float:left; background-color: #F3F3F3}
+#bottom .bottom-side-left span{position: absolute; font-size: 14px; line-height: 13px; letter-spacing: -0.02em; color: #334654; margin:10px 0 0 200px}
+#bottom .bottom-side-left span a{color:#1FC0DA; text-decoration:none}
+#bottom .bottom-side-left span label{color:rgba(51, 70, 84, 0.15)}
+#bottom .bottom-side-right {width: 50%; height: 65px; background-color: #F3F3F3; float:left}
+#bottom .bottom-side-right span{position: absolute; font-size: 14px; line-height: 13px; letter-spacing: -0.02em; color: #334654; margin:10px 0 0 200px}
+
+/*INI - JCTKR*/
+.jctkr-initialized { height:40px; }
+.jctkr-initialized ul li{background-color:#f4f4f4!important}
+/*FIM - JCTKR*/
+
+/*INI - FLEXSLIDER*/
+.flexslider{border:0}
+.flexslider .slides img{height:411px!important}
+ol.flex-control-nav{bottom:5%; left:2.5%; width:12%; background-color:#334654; padding:0.5%}
+
+.flex-control-paging li a{-webkit-border-radius:0!important; background:rgba(234, 54, 142, 0.5)!important}
+.flex-control-paging li a.flex-active{background:rgb(234, 54, 142)!important}
+/*FIM - FLEXSLIDER*/
+
+
+@media screen and (min-width: 1440px) and (max-width: 1599px)
+{
+	#top #top-menu-bar span{font-size:14px}
+	#mega-menu{top:24.9%}
+	ol.flex-control-nav{width:13%!important}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px)
+{
+	#top {height: 202px}
+	#top #top-menu-bar span{font-size:10px}
+	#top #top-menu-bar {height: 37px}
+	#top #top-menu-bar .top-menu-orientacao-item{top: 36px}
+	#top #top-main-bar .top-main-menu{margin:5% 0 0 55%;}
+	#content{min-height:395px}
+	#mega-menu{top:24%}
+	ol.flex-control-nav{width:18%!important}
+}
+
+@media screen and (min-width: 426px) and (max-width: 1023px)
+{
+	#top {height: 202px}
+	#top #top-menu-bar span{font-size:10px}
+	#top #top-menu-bar {height: 35px}
+	#top #top-menu-bar .top-menu-orientacao-item{top: 36px}
+	#top #top-main-bar .top-main-menu{margin:6% 0 0 55%;}
+	#content{min-height:1775px}
+	#mega-menu{top:18.6%}
+	ol.flex-control-nav{width:20%!important}
+}

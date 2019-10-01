@@ -1,0 +1,102 @@
+@font-face { font-family: DINPro; src: url(../fonts/DINPro-Regular_13937.ttf) }
+
+body{margin: 0}
+
+.colun-x25{width:23%; margin:1%; float:left}
+.colun-x33{width:31.33%; margin:1%; float:left;}
+.colun-x50{width:48%; margin:1%; float:left}
+.colun-x66{width:64.66%; margin:1%; float:left}
+.colun-x75{width:73%; margin:1%; float:left}
+.colun-x100{width:98%; margin:1%; float:left}
+
+#top {top: 0; width: 100%; height: auto; font-family: DINPro; color: #FFFFFF}
+#top #top-user-bar {background: #EA368E; height:auto; float: right; width:50%; position: relative; font-size:12px}
+#top #top-user-bar::before {content: ""; width: 0; height: 0; border-top: 0 solid transparent; border-bottom: 15px solid transparent; border-left: 60px solid #781E77; left: -15px; position: absolute;}
+#top #top-user-bar .top-user-recepcao-usuario{width:28%; float:left; min-height:32px; text-align:right; padding:1% 1% 0 1%; font-size:12px}
+#top #top-user-bar .top-user-minhas-tarefas{float:left; height:28px; padding:2% 1% 0 1%; background-color:#D33180}
+#top #top-main-bar {background: #781E77; height: 120px}
+#top #top-menu-bar span{font-weight:bold}
+#top #top-main-bar .logo-top-main{background: #FFF url(../images/raizen-logo.png) no-repeat center; height: 120px; width:150px; margin:0 0 0 10.8%; float:left}
+#top #top-main-bar .top-main-menu{height: 60px; width:400px; margin:4% 0 0 55%; position:absolute; font-size:14px}
+#top #top-main-bar .top-main-menu span{cursor:pointer}
+#top #top-menu-bar {background: #334654; height: 42px; font-size:14px; overflow:hidden}
+#top #top-menu-bar [class*="top-menu-item-"]:hover{cursor:pointer; background: #4B6273}
+#top #top-menu-bar .top-menu-item-1{padding:15px; float:left; width:5%; text-align:center; margin: 0 0 0 10.8%;}
+#top #top-menu-bar .top-menu-item-2{padding:15px; float:left; width:15%; text-align:center}
+#top #top-menu-bar .top-menu-item-3{padding:15px; float:left; width:5%; text-align:center}
+#top #top-menu-bar .top-menu-item-4{padding:15px; float:left; width:5%; text-align:center}
+#top #top-menu-orientacao-bar {background: #334654; height: 5px;}
+#top #top-menu-orientacao-bar .top-menu-orientacao-item-1{background-color: #F47920; height:5px; padding:0 15px 0 15px; float:left; width:5%; margin: 0 0 0 10.8%;}
+#top #top-menu-orientacao-bar .top-menu-orientacao-item-2{background-color: #1FC0DA; height:5px; padding:0 15px 0 15px; float:left; width:15%;}
+#top #top-menu-orientacao-bar .top-menu-orientacao-item-3{background-color: #EA368E; height:5px; padding:0 15px 0 15px; float:left; width:5%;}
+#top #top-menu-orientacao-bar .top-menu-orientacao-item-4{background-color: #FDB515; height:5px; padding:0 15px 0 15px; float:left; width:5%;}
+
+#top #ticker {background: #F4F4F4; height: 40px}
+#top #ticker .container {max-width: 100%;}
+#top #ticker .container .wrap{width: 100%; white-space: nowrap; overflow: hidden; font-size: 0; background: #F4F4F4; border-radius: 3px; height: 40px}
+#top #ticker .container .wrap .jctkr-label{padding: 0 17px; line-height: 40px; background: #F4F4F4; font-style: italic; font-size: 19px; text-shadow: 0 1px 2px rgba(69, 78, 140,1); cursor: default}
+#top #ticker .container .wrap [class*="js-conveyor-"] ul li{padding: 5px 10px; line-height: 5px; font-size: 16px; color: #781E77; background-color:#f4f4f4}
+#top #ticker .container .wrap [class*="js-conveyor-"] ul li div{padding:10px; border: 1px solid #E8ECF4; box-sizing: border-box; border-bottom:5px solid #EA368E; background-color:#fff}
+#top #ticker .container .wrap [class*="js-conveyor-"] ul li div span.ticker-titulo{color:#781E77}
+#top #ticker .container .wrap [class*="js-conveyor-"] ul li div span.ticker-data-hora{text-align: right; color: #ABABAB;}
+#top #ticker .container .wrap [class*="js-conveyor-"] ul li div span a{text-decoration:none; text-decoration-color:none}
+
+#mega-menu{width:75%; height:35%; left:10.8%; position:absolute; top:22%; z-index:3; background: #4B6273; font-family:DINPro; color:#BCECF4; display:none;}
+#mega-menu .mega-menu-header-side-left{ float:left; width:47%; padding:1.5% 0.5% 1.5% 2.5%; border-bottom:1px solid #5D7181; font-size:18px;}
+#mega-menu .mega-menu-header-side-right{ float:left; width:47%; padding:1.5% 0.5% 1.5% 2.5%; border-bottom:1px solid #5D7181; font-size:18px;}
+#mega-menu .mega-menu-container{ margin:5% 0 0 0; }
+#mega-menu .mega-menu-container .mega-menu-content{ float: left; width:22%; padding:0 0.5% 0 2.5%; font-size:12px;}
+#mega-menu .mega-menu-container .mega-menu-content ul{ list-style-type:none; margin:0; padding:0; color:#FFF}
+#mega-menu .mega-menu-container .mega-menu-content ul li{ padding: 3% 0; }
+#mega-menu .mega-menu-container .mega-menu-content ul li a{ cursor:pointer; }
+
+#bottom {width: 100%; font-family: DINPro; overflow:hidden; padding:2% 0; background:#F3F3F3}
+#bottom .bottom-side-left {width: 50%; height: 65px; float:left; background-color: #F3F3F3}
+#bottom .bottom-side-left span{position: absolute; font-size: 14px; line-height: 13px; letter-spacing: -0.02em; color: #334654; margin:10px 0 0 200px}
+#bottom .bottom-side-left span a{color:#1FC0DA; text-decoration:none}
+#bottom .bottom-side-left span label{color:rgba(51, 70, 84, 0.15)}
+#bottom .bottom-side-right {width: 50%; height: 65px; background-color: #F3F3F3; float:left}
+#bottom .bottom-side-right span{position: absolute; font-size: 14px; line-height: 13px; letter-spacing: -0.02em; color: #334654; margin:10px 0 0 200px}
+
+/*INI - JCTKR*/
+.jctkr-initialized { height:40px; }
+.jctkr-initialized ul li{background-color:#f4f4f4!important}
+/*FIM - JCTKR*/
+
+/*INI - FLEXSLIDER*/
+.flexslider{border:0}
+.flexslider .slides img{height:411px!important}
+ol.flex-control-nav{bottom:5%; left:2.5%; width:12%; background-color:#334654; padding:0.5%}
+
+.flex-control-paging li a{-webkit-border-radius:0!important; background:rgba(234, 54, 142, 0.5)!important}
+.flex-control-paging li a.flex-active{background:rgb(234, 54, 142)!important}
+/*FIM - FLEXSLIDER*/
+
+@media screen and (min-width: 1440px) and (max-width: 1599px)
+{
+	#top #top-menu-bar span{font-size:14px}
+	#mega-menu{top:24.9%}
+	ol.flex-control-nav{width:13%!important}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px)
+{
+	/*#top {height: 202px}*/
+	#top #top-menu-bar span{font-size:10px}
+	#top #top-menu-bar {height: 37px}
+	#top #top-menu-bar .top-menu-orientacao-item{top: 36px}
+	#top #top-main-bar .top-main-menu{margin:5% 0 0 55%;}
+	#mega-menu{top:24%}
+	ol.flex-control-nav{width:18%!important}
+}
+
+@media screen and (min-width: 426px) and (max-width: 1023px)
+{
+	/*#top {height: 202px}*/
+	#top #top-menu-bar span{font-size:10px}
+	#top #top-menu-bar {height: 35px}
+	#top #top-menu-bar .top-menu-orientacao-item{top: 36px}
+	#top #top-main-bar .top-main-menu{margin:6% 0 0 55%;}
+	#mega-menu{top:18.6%}
+	ol.flex-control-nav{width:20%!important}
+}

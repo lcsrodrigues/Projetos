@@ -1,0 +1,113 @@
+#content {min-height: 482; left: 10%; width: 80%; position: relative; font-family: DINPro; overflow:hidden; padding:1%;}
+#content .title-menu-1 { text-transform: uppercase; color:#781E77; font-size:16px }
+#content .title-menu-2 { text-transform: uppercase; color:#781E77; font-size:27px; font-weight:bold }
+/*#content .poligono-trapezio { position:absolute; left:-1%; top:90%;}*/
+
+#content .webdoor{height:411px;}
+
+#content .blog-luis{height:406px}
+#content .blog-luis .header-item{background:#781E77; height:25%; width:100%; border-bottom:5px solid #FDB515}
+#content .blog-luis .header-item .cabeca-luis{ position: absolute; width: 10%; top: 0.5%; }
+#content .blog-luis .content-item{height:45%;}
+#content .blog-luis .content-item img{width:100%; height:100%}
+#content .blog-luis .chamada-item { color:#781E77; font-size:21px; font-weight:bold; height:20%; margin:2.5% 0 0 0}
+#content .blog-luis .footer-item{height:10%; width:100%; margin:2.5% 0 0 0}
+#content .blog-luis .footer-item span{ color:#1FC0DA; font-size:13px }
+
+#content .destaques{height:auto; background:none}
+#content .destaques .destaque-header{ }
+#content .destaques .destaque-header img{ width:100%; height:30% }
+#content .destaques .destaque-content{ padding:5%; font-size:21px; font-weight:bold; color:#781E77 }
+#content .destaques .destaque-footer{ padding:0 5% }
+#content .destaques .destaque-footer .elm-interacao-destaque{ overflow:hidden;}
+#content .destaques .destaque-footer .elm-interacao-destaque .elm-comentario{ width:30%; float:left }
+#content .destaques .destaque-footer .elm-interacao-destaque .elm-curtir{ width:30%; float:left }
+
+#content .clipping { background:none; overflow:hidden; height:auto}
+#content .clipping .clipping-titulo{ background: #781E77; padding:3%; color:#FFF }
+#content .clipping .clipping-titulo .clipping-titulo-1{font-size:13px}
+#content .clipping .clipping-titulo .clipping-titulo-2{font-size:22px}
+#content .clipping .clipping-content{ }
+#content .clipping .clipping-content ul{ list-style-type:none; margin:0; padding:5% }
+#content .clipping .clipping-content ul li { margin:0 0 5% 0; }
+#content .clipping .clipping-content ul li hr{ margin:10% 0 0 0; border: 1px solid #E8ECF4;}
+#content .clipping .clipping-content ul li .clipping-icone{ width:5%; float:left; text-align:center; margin:2% 0 0 0 }
+#content .clipping .clipping-content ul li .clipping-title{ width:95%; float:left; margin:0 0 2% 0 }
+#content .clipping .clipping-content ul li .clipping-title .titulo-item{ color:#1FC0DA; font-size:14px; margin:0 0 0 3% }
+#content .clipping .clipping-content ul li .clipping-data {  }
+#content .clipping .clipping-content ul li .clipping-data .data-item{ color:#ABB4C2; font-size:12px; margin:0 0 0 3% }
+#content .clipping .clipping-footer{ padding:5% }
+#content .clipping .clipping-footer .btn-ver-todos { background:#781E77; color:#FFF; width:max-content; padding:3%}
+
+#content .noticias-tp-1{height:66; background:none}
+#content .noticias-tp-1 .side-left-tp-1{float:left; width:30%;}
+#content .noticias-tp-1 .side-left-tp-1 img{width:100%; height:66px;}
+#content .noticias-tp-1 .side-right-tp-1{ float:left; width:65%; margin:0 2.5%;}
+#content .noticias-tp-1 .side-right-tp-1 .titulo-tp-1{width:100%; height:75%}
+#content .noticias-tp-1 .side-right-tp-1 .titulo-tp-1 span{ font-size:15px; color:#781E77; font-weight:bold }
+#content .noticias-tp-1 .side-right-tp-1 .elm-interacao-tp-1{width:100%; height:25%}
+#content .noticias-tp-1 .side-right-tp-1 .elm-interacao-tp-1 .elm-comentario{float:left; margin: 0 5% 0 0}
+#content .noticias-tp-1 .side-right-tp-1 .elm-interacao-tp-1 .elm-comentario svg{cursor:pointer}
+#content .noticias-tp-1 .side-right-tp-1 .elm-interacao-tp-1 .elm-curtir{float:left;}
+#content .noticias-tp-1 .side-right-tp-1 .elm-interacao-tp-1 .elm-curtir svg{cursor:pointer}
+
+#content .noticias-tp-2{height:auto; border-top: 5px solid #1FC0DA; background:none}
+#content .noticias-tp-2 .titulo-tp-2{height:5%; padding: 3% 0 0 3%}
+#content .noticias-tp-2 .titulo-tp-2 span{ font-size:18px; color:#781E77; text-transform:uppercase; font-weight:bold }
+#content .noticias-tp-2 .img-tp-2{ }
+#content .noticias-tp-2 .img-tp-2 img{ height:30%; width:100%;}
+#content .noticias-tp-2 .chamada-tp-2{height:10%; font-size:15px; color:#334654; padding: 3% 0 0 3%}
+#content .noticias-tp-2 .link-tp-2{height:5%; padding: 3% 0 0 3%}
+#content .noticias-tp-2 .link-tp-2 a{color:#1FC0DA; font-size:13px}
+
+#content .resultados-raizen {height:auto; background:none; }
+#content .resultados-raizen .resultado-titulo { background: #781E77; padding:3%; color:#FFF;}
+#content .resultados-raizen .resultado-titulo .resultado-titulo-1{font-size:13px}
+#content .resultados-raizen .resultado-titulo .resultado-titulo-2{font-size:22px}
+#content .resultados-raizen .resultado-subtitulo{background: #EDEDED; padding: 3%}
+#content .resultados-raizen .resultado { padding: 5% 0 0 0; font-size: 14px; }
+#content .resultados-raizen .resultado ul{ list-style-type:none; margin:0; padding:0; }
+#content .resultados-raizen .resultado ul li{ overflow:hidden; margin:0 0 5% 0}
+#content .resultados-raizen .resultado ul li .part-1{ width:10%; float:left; padding:1% 0 0 0; text-align:center}
+#content .resultados-raizen .resultado ul li .part-2{ width:40%; float:left; }
+#content .resultados-raizen .resultado ul li .part-2 span { text-align:center; top:30%; font-weight:bold;}
+#content .resultados-raizen .resultado ul li .part-3{ float:left; font-size: 11px; width:30%; text-align:right}
+#content .resultados-raizen .resultado ul li .part-4{ float:left; font-size: 11px; width:15%; text-align:right}
+#content .resultados-raizen .resultado ul li .part-4 .semafaro{ width:70%; height:5px; border-radius:100px; text-align:right; margin:5% 0 0 30% }
+
+#content .previsao-tempo {height:auto; background:none;}
+#content .previsao-tempo .previsao-titulo { background: #781E77; padding:3%; color:#FFF}
+#content .previsao-tempo .previsao-titulo .previsao-titulo-1{font-size:13px}
+#content .previsao-tempo .previsao-titulo .previsao-titulo-2{font-size:22px}
+#content .previsao-tempo .previsao-subtitulo {background: #EDEDED; padding: 3%}
+#content .previsao-tempo .previsao-subtitulo select{border-color: snow; background: none; border: 0; font-family:DINPro!important; font-size:11px!important; -webkit-appearance: none; -moz-appearance: none;}
+#content .previsao-tempo .previsao-subtitulo select:focus{outline:none}
+#content .previsao-tempo .previsao {overflow:hidden; font-weight:bold}
+#content .previsao-tempo .previsao ul{list-style-type:none; margin:0; padding:3%;}
+#content .previsao-tempo .previsao ul li{overflow:hidden; margin:0 0 5% 0; background:#FFFFFF}
+#content .previsao-tempo .previsao ul li:first-child{ }
+#content .previsao-tempo .previsao ul li:first-child .dia-data{font-size:20px; width:65%; margin:5% 0 0 0 }
+#content .previsao-tempo .previsao ul li:first-child .temperatura-max{font-size:46px; width:19%;}
+#content .previsao-tempo .previsao ul li:first-child .temperatura-min{ margin:10% 0 0 0 }
+#content .previsao-tempo .previsao ul li .dia-data{width:77%; float:left; padding:0 0 5% 0; font-size:12px; color: #334654;}
+#content .previsao-tempo .previsao ul li .temperatura-max{width:7%; float:left; text-align:center; padding:0 1.5% 3% 1.5%; font-size:16px; color:#334654}
+#content .previsao-tempo .previsao ul li .temperatura-min{width:7%; float:left; text-align:center; padding:0 1.5% 3% 1.5%; font-size:16px; color:#8C9DA9}
+#content .previsao-tempo .aviso { font-size:12px; margin:0 0 5% 0; overflow:hidden; padding:3% }
+#content .previsao-tempo .aviso .aviso-icone { width:6%; float:left; text-align:center}
+#content .previsao-tempo .aviso .aviso-titulo { width:94%; font-weight:bold; float:left }
+#content .previsao-tempo .aviso .aviso-conteudo { margin:0 0 0 6% }
+
+@media screen and (min-width: 1440px) and (max-width: 1599px)
+{
+	
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px)
+{
+	#content{min-height:395px}
+}
+
+@media screen and (min-width: 426px) and (max-width: 1023px)
+{
+	#content{min-height:1775px}
+}
