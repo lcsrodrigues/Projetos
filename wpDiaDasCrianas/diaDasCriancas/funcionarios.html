@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<link rel='stylesheet' type='text/css' href='style.css' />
+		<script type='text/javascript' src="jquery-3.4.1.js"></script>
+	</head>
+	<body>
+		<section>
+			<h3>Funcionários</h3>
+			<a href='file:///C:/Users/Meta/Desktop/diaDasCriancas/home.html'>Home</a>
+		</section>
+		<section>
+			<div class='divLabelForm'>
+				<label>Cadastrar Funcionário</label>
+			</div>
+			<div class='divInputForm'>
+				<div>
+					<span>Nome do Empregado</span>
+				</div>
+				<div>
+					<input type='text' class='inputText obrigatorio' id='iptNomeFuncionário' placeholder='Nome do funcionário' />
+				</div>
+				<div>
+					<span>Matrícula</span>
+				</div>
+				<div>
+					<input type='text' class='inputText obrigatorio' id='iptMatriculaFuncionário' placeholder='Matrícula do funcionário' />
+				</div>
+				<div>
+					<span>Telefone de Contato</span>
+				</div>
+				<div>
+					<input type='text' class='inputText obrigatorio' id='iptTelefoneFuncionário' placeholder='Telefone do funcionário' />
+				</div>
+				<div>
+					<span>E-mail</span>
+				</div>
+				<div>
+					<input type='text' class='inputText obrigatorio' id='iptEmailFuncionário' placeholder='E-mail do funcionário' />
+				</div>
+			</div>
+			<div>
+				<div class='button' id='btnEnviarFormulario'>
+					<span>Salvar</span>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class='divLabelForm listaFuncionarios'>
+				<label>Lista de Funcionários</label>
+			</div>
+			<div class='divInputForm'>
+				<table class='tableFuncionarios'>
+					<tr id='headerFuncionarios'>
+						<th>Nome</th>
+						<th>Matrícula</th>
+						<th>Telefone</th>
+						<th>E-mail</th>
+					</tr>
+					<div id='targetFuncionarios'>
+						<tr>
+							<td>Lucas</td>
+							<td>2256839</td>
+							<td>(21)88230-4231</td>
+							<td>lcs@email.com</td>
+						</tr>
+						<tr>
+							<td>Fabricio</td>
+							<td>2229189</td>
+							<td>(21)88230-1324</td>
+							<td>fab@email.com</td>
+						</tr>
+						<tr>
+							<td>Igor</td>
+							<td>1236839</td>
+							<td>(21)88230-4321</td>
+							<td>igo@email.com</td>
+						</tr>
+						<tr>
+							<td>Marcio</td>
+							<td>2256441</td>
+							<td>(21)88230-1234</td>
+							<td>mar@email.com</td>
+						</tr>
+					</div>
+				</table>
+			</div>
+		</section>
+	</body>
+</html>

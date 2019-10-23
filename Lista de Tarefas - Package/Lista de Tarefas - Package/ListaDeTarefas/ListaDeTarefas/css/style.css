@@ -1,0 +1,461 @@
+﻿/* GLOBAL */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma;
+}
+
+/* TELA DE LOGIN */
+section#login {
+    font-family: Tahoma;
+    margin: 10% 0 0 0;
+}
+
+    section#login .alertBox {
+        text-align: center;
+        border: 1px solid #3498db;
+        border-top: #FFF;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+        background: yellow;
+    }
+
+    section#login .loginBox {
+        border: 1px solid #3498db;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+        section#login .loginBox header {
+            text-align: center;
+            font-size: 36px;
+            margin: 10px;
+        }
+
+        section#login .loginBox .content .formLogin {
+            text-align: center;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+            section#login .loginBox .content .formLogin label {
+                margin: 10px 0 0 0;
+                display: block;
+                text-align: left;
+                color: #2980b9;
+            }
+
+            section#login .loginBox .content .formLogin input {
+                margin: 5px 0 0 0;
+                padding: 5px;
+                width: 95%;
+            }
+
+        section#login .loginBox .footer {
+            margin: 10px 0 0 0;
+            text-align:center;
+        }
+
+            section#login .loginBox .footer #btnLogin {
+                background: #2980b9;
+                width: 50%;
+                margin: 25px auto;
+                cursor: pointer;
+                padding: 1%;
+                text-align: center;
+                color: #FFF;
+            }
+
+            section#login .loginBox .footer .esqueciMinhaSenha {
+                text-align: right;
+            }
+                section#login .loginBox .footer .esqueciMinhaSenha a {
+                    margin: 0 25% 0 0;
+                    text-decoration: none;
+                    color: #2980b9;
+                }
+
+    section#login .infoBox {
+        border: 1px solid #3498db;
+        border-top: #FFF;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+        text-align: right;
+    }
+
+        section#login .infoBox div {
+            text-align: right;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+            section#login .infoBox div label a {
+                color: #2980b9;
+                text-decoration: none;
+            }
+
+/* TELA DE CADASTRO PESSOA */
+
+section#cadastro {
+    font-family: Tahoma;
+    margin: 4% 0 0 0;
+}
+
+    section#cadastro .cadastroBox {
+        border: 1px solid #3498db;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+        section#cadastro .cadastroBox header {
+            text-align: center;
+            font-size: 36px;
+            margin: 10px;
+        }
+
+        section#cadastro .cadastroBox .content .formLogin {
+            text-align: center;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+            section#cadastro .cadastroBox .content .formLogin label {
+                margin: 10px 0 0 0;
+                display: block;
+                text-align: left;
+                color: #2980b9;
+                width: 100%;
+                overflow: hidden;
+            }
+
+                section#cadastro .cadastroBox .content .formLogin label .iptObrigatorio {
+                    color: #FF0000;
+                }
+
+            section#cadastro .cadastroBox .content .formLogin select {
+                margin: 5px 0 0 0;
+                padding: 5px;
+                width: 100%;
+            }
+
+            section#cadastro .cadastroBox .content .formLogin input {
+                margin: 5px 0 0 0;
+                padding: 5px;
+                width: 95%;
+            }
+
+            section#cadastro .cadastroBox .content .formLogin .reqValitador {
+                font-size:14px;
+                color:#FF0000;
+                float:right;
+            }
+
+        section#cadastro .cadastroBox .footer {
+            margin: 10px 0 0 0;
+            text-align:center;
+        }
+
+            section#cadastro .cadastroBox .footer #btnCadastrar {
+                background: #2980b9;
+                width: 50%;
+                margin: 25px auto;
+                cursor: pointer;
+                padding: 1%;
+                text-align: center;
+                color: #FFF;
+            }
+
+    section#cadastro .infoBox {
+        border: 1px solid #3498db;
+        border-top: #FFF;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+        text-align: right;
+    }
+
+        section#cadastro .infoBox div {
+            text-align: right;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+            section#cadastro .infoBox div a {
+                color: #2980b9;
+                text-decoration: none;
+            }
+
+    section#cadastro .errorBox {
+        text-align: center;
+        border: 1px solid #3498db;
+        border-top: #FFF;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+        background: #FF0000;
+    }
+
+        section#cadastro .errorBox div {
+            text-align: center;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+            section#cadastro .errorBox div a {
+                color: #2980b9;
+                text-decoration: none;
+            }
+
+    section#cadastro .alertBox {
+        text-align:center;
+        border: 1px solid #3498db;
+        border-top: #FFF;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+        background: yellow;
+    }
+
+        section#cadastro .alertBox div {
+            text-align: center;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+            section#cadastro .alertBox div a {
+                color: #2980b9;
+                text-decoration: none;
+            }
+
+    section#cadastro .successBox {
+        text-align: center;
+        border: 1px solid #3498db;
+        border-top: #FFF;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+        background: green;
+    }
+
+        section#cadastro .successBox div {
+            text-align: center;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+            section#cadastro .successBox div a {
+                color: #2980b9;
+                text-decoration: none;
+            }
+
+/* TELA HOME */
+
+section#home {
+}
+
+    section#home .homeBox {
+    }
+
+        section#home .homeBox header {
+            background: #3498db;
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            color:#FFF;
+        }
+
+            section#home .homeBox header span {
+                float: right;
+                margin: 20px 20px 0 0;
+            }
+
+                section#home .homeBox header span a {
+                    color: #FFF;
+                    text-decoration: none;
+                }
+
+        section#home .homeBox .createTarefa {
+            border: 1px solid #3498db;
+            width: 26%;
+            height: 530px;
+            margin: 1%;
+            float: left;
+            padding: 10px;
+        }
+
+            section#home .homeBox .createTarefa .tarefaBox {
+            }
+
+                section#home .homeBox .createTarefa .tarefaBox .header {
+                    text-align: center;
+                    margin: 20px 0 0 0;
+                    font-size: 24px;
+                    border-bottom: 1px solid #3498db;
+                    padding-bottom: 15px
+                }
+
+                section#home .homeBox .createTarefa .tarefaBox .body {
+                }
+
+                    section#home .homeBox .createTarefa .tarefaBox .body .formTarefa {
+                        text-align: center;
+                        width: 100%;
+                        margin: 0 auto;
+                    }
+
+                        section#home .homeBox .createTarefa .tarefaBox .body .formTarefa label {
+                            margin: 10px 0 0 0;
+                            display: block;
+                            text-align: left;
+                        }
+
+                        section#home .homeBox .createTarefa .tarefaBox .body .formTarefa input, select {
+                            margin: 5px 0 0 0;
+                            padding: 5px;
+                            width: 95%;
+                        }
+
+                        section#home .homeBox .createTarefa .tarefaBox .body .formTarefa textarea {
+                            margin: 5px 0 0 0;
+                            padding: 5px;
+                            width: 95%;
+                            resize: none;
+                            height: 100px;
+                        }
+
+                section#home .homeBox .createTarefa .tarefaBox .footer {
+                    text-align:center;
+                }
+
+                    section#home .homeBox .createTarefa .tarefaBox .footer #btnSalvar {
+                        background: #2980b9;
+                        width: 48%;
+                        margin: 25px auto;
+                        cursor: pointer;
+                        padding: 1%;
+                        text-align: center;
+                        color: #FFF;
+                    }
+
+.listTarefa {
+    border: 1px solid #3498db;
+    width: 66%;
+    height: 530px;
+    margin: 1%;
+    float: left;
+    padding: 10px;
+}
+
+    .listTarefa .listaTarefaBox {
+    }
+
+        .listTarefa .listaTarefaBox .header {
+            text-align: center;
+            margin: 20px 0 0 0;
+            font-size: 24px;
+            border-bottom: 1px solid #3498db;
+            padding-bottom: 15px
+        }
+
+        .listTarefa .listaTarefaBox .body {
+        }
+
+            .listTarefa .listaTarefaBox .body table {
+                border-collapse: collapse;
+                width: 100%;
+                border: 1px solid #000;
+                text-align: center;
+            }
+
+                .listTarefa .listaTarefaBox .body table tr:nth-child(odd) {
+                    background-color: #fff;
+                }
+
+                .listTarefa .listaTarefaBox .body table tr:nth-child(even) {
+                    background-color: #87CEFA;
+                }
+
+                    .listTarefa .listaTarefaBox .body table tr td {
+                        padding: 2%;
+                    }
+
+        .listTarefa .listaTarefaBox .footer {
+        }
+
+/* TELA DE LOGIN */
+section#esqueciSenha {
+    font-family: Tahoma;
+    margin: 10% 0 0 0;
+}
+
+    section#esqueciSenha .loginBox {
+        border: 1px solid #3498db;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+        section#esqueciSenha .loginBox header {
+            text-align: center;
+            font-size: 36px;
+            margin: 10px;
+        }
+
+        section#esqueciSenha .loginBox .content .formEsqueciSenha {
+            text-align: center;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        section#esqueciSenha .loginBox .content .formEsqueciSenha label {
+            margin: 10px 0 0 0;
+            display: block;
+            text-align: left;
+            color: #2980b9;
+        }
+
+        section#esqueciSenha .loginBox .content .formEsqueciSenha input {
+            margin: 5px 0 0 0;
+            padding: 5px;
+            width: 95%;
+        }
+
+        section#esqueciSenha .loginBox .footer {
+            margin: 10px 0 0 0;
+            text-align: center;
+        }
+
+            section#esqueciSenha .loginBox .footer #btnEnviarEmail {
+                background: #2980b9;
+                width: 50%;
+                margin: 25px auto;
+                cursor: pointer;
+                padding: 1%;
+                text-align: center;
+                color: #FFF;
+            }
+
+    section#esqueciSenha .infoBox {
+        border: 1px solid #3498db;
+        border-top: #FFF;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+        text-align: right;
+    }
+
+        section#esqueciSenha .infoBox div {
+            text-align: right;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+            section#esqueciSenha .infoBox div label a {
+                color: #2980b9;
+                text-decoration: none;
+            }

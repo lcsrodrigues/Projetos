@@ -1,0 +1,111 @@
+﻿body{
+    font-family:Verdana;
+    padding:0;
+    margin:0;
+}
+
+#paginacaoProcesso {
+    text-align: center;
+    overflow: hidden;
+    display: none;
+    margin: 20px 0 0 0;
+}
+
+    #paginacaoProcesso a {
+        margin: 0 2%;
+        background: #BCD;
+        padding: 3%;
+        cursor: pointer;
+    }
+
+    #paginacaoProcesso a:hover {
+        opacity:0.5;
+    }
+
+    #btnCriarProcesso {
+        width: 10% !important;
+        margin: 10px 0 0 0;
+    }
+
+#createProcesso input, select {
+    padding: 5px;
+    width: 23.5%;
+}
+
+h1 {
+    margin-top:0;
+    text-align: center;
+    background: #BCD;
+}
+
+#divProcessos {
+    height: 300px;
+    max-height: 300px;
+    overflow: overlay;
+}
+
+#headProcessos {
+    height: 5px;
+    margin: 0 0 30px 0;
+    list-style-type: none;
+}
+
+    #headProcessos li {
+        float: left;
+        width: 14.28%;
+    }
+
+#targetProcessos {
+    list-style-type: none;
+    height: 5px;
+}
+
+    #targetProcessos .processoCard{
+        overflow:hidden;
+    }
+
+    #targetProcessos .processoCard li {
+        float: left;
+        width: 14.28%;
+        margin: 2.5px 0;
+    }
+
+    #targetProcessos li a{
+        cursor:pointer;
+    }
+
+    #targetProcessos .processoCard .iptEditProcesso {
+        display: none;
+    }
+
+    #targetProcessos .processoCard .iptEditProcesso input{
+        height: 22px;
+    }
+
+    #targetProcessos .processoCard .confirCancelUpdate {
+        display: none;
+    }
+
+    #targetProcessos .processoCard .editEscritorio {
+        display: none;
+    }
+
+    #targetProcessos .processoCard .editEscritorio select{
+        width:80%;
+    }
+
+.icon-trash-1 img{
+    width:20px;
+}
+
+.icon-edit-1 img {
+    width: 20px;
+}
+
+.confirCancelUpdate .cancelUpdate{
+    margin:0 20px;
+}
+
+.confirCancelUpdate img {
+    width: 20px;
+}

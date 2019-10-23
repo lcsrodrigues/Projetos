@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="labRodrigues" Class="ModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=GMEPN001045\SQLEXPRESS;Initial Catalog=labRodrigues;Integrated Security=True" SettingsObjectName="Model.Properties.Settings" SettingsPropertyName="labRodriguesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.COLABORADOR" Member="COLABORADOR">
+    <Type Name="COLABORADOR">
+      <Column Name="NOME" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MATRICULA" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TELEFONE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CONJUGE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EMAIL" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="COLABORADOR_FILHO" Member="FILHO" ThisKey="MATRICULA" OtherKey="PAI" Type="FILHO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FILHO" Member="FILHO">
+    <Type Name="FILHO">
+      <Column Name="NOME" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="FAIXA_ETARIA" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PAI" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="COLABORADOR_FILHO" Member="COLABORADOR" ThisKey="PAI" OtherKey="MATRICULA" Type="COLABORADOR" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FUNCIONARIOS" Member="FUNCIONARIOS">
+    <Type Name="FUNCIONARIOS">
+      <Column Name="NOME" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MATRICULA" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TELEFONE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EMAIL" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

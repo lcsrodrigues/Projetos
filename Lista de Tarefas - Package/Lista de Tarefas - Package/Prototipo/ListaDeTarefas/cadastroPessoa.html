@@ -1,0 +1,67 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Lista de tarefas | Home</title>
+	<link rel='stylesheet' type='text/css' href='style.css' />
+</head>
+<body>
+    <section id='cadastro'>
+		<div class='errorBox'>
+			<div>
+				<label>Ocorreu um erro interno</label>
+			</div>
+		</div>
+		<div class='alertBox'>
+			<div>
+				<label>O campo email é obrigatório</label>
+			</div>
+		</div>
+		<div class='successBox'>
+			<div>
+				<label>Cadastro realizado com sucesso</label>
+			</div>
+		</div>
+		<div class='cadastroBox'>
+			<header>
+				<span>LOGIN</span>
+			</header>
+			<div class='content'>
+				<div class='formLogin'>
+					<label>Nome completo</label>
+					<input type='text' placeholder='Nome completo' id='iptNome' />
+				</div>
+				<div class='formLogin'>
+					<label>E-mail</label>
+					<input type='text' placeholder='Email' id='iptEmail' />
+				</div>
+				<div class='formLogin'>
+					<label>Gênero</label>
+					<select>
+						<option>Masculino</option>
+						<option>Feminino</option>
+						<option>Não informar</option>
+					</select>
+				</div>
+				<div class='formLogin'>
+					<label>Senha</label>
+					<input type='password' placeholder='Senha' id='iptSenha' />
+				</div>
+				<div class='formLogin'>
+					<label>Confirmar senha</label>
+					<input type='password' placeholder='Confirma senha' id='iptConfirmaSenha' />
+				</div>
+			</div>
+			<div class='footer'>
+				<div id='btnCadastrar'>
+					CADASTRAR
+				</div>
+			</div>
+		</div>
+		<div class='infoBox'>
+			<div>
+				<label>Retornar para a tela de <a href='file:///C:/Users/Meta/Desktop/ListaDeTarefas/index.html'>Login</a></label>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

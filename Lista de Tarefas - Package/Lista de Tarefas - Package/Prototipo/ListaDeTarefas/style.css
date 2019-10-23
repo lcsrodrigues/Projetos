@@ -1,0 +1,75 @@
+/* TELA HOME */
+
+body{ padding:0; margin:0; font-family:Tahoma; }
+
+section#home{  }
+section#home .homeBox{  }
+section#home .homeBox header{ background:#3498db; width:100%; height:60px; text-align:center; }
+section#home .homeBox header span{ float:right; margin:20px 20px 0 0; }
+section#home .homeBox header span a{ color:#000; text-decoration:none; }
+
+section#home .homeBox .createTarefa{ border:1px solid #3498db; width:26%; height:530px; margin:1%; float:left;  padding:10px; }
+section#home .homeBox .createTarefa .tarefaBox{  }
+section#home .homeBox .createTarefa .tarefaBox .header{ text-align:center; margin:20px 0 0 0; font-size:24px; border-bottom: 1px solid #3498db; padding-bottom: 15px }
+
+section#home .homeBox .createTarefa .tarefaBox .body{  }
+section#home .homeBox .createTarefa .tarefaBox .body .formTarefa{ text-align: center; width: 100%; margin: 0 auto; }
+section#home .homeBox .createTarefa .tarefaBox .body .formTarefa label{ margin: 10px 0 0 0; display:block; text-align:left; }
+section#home .homeBox .createTarefa .tarefaBox .body .formTarefa input, select{ margin: 5px 0 0 0; padding: 5px; width: 100%; }
+section#home .homeBox .createTarefa .tarefaBox .body .formTarefa textarea{ margin: 5px 0 0 0; padding: 5px; width: 100%; resize:none; height:100px; }
+
+section#home .homeBox .createTarefa .tarefaBox .footer{  }
+section#home .homeBox .createTarefa .tarefaBox .footer #btnSalvar{ background: #2980b9; width: 48%; margin: 25px auto; cursor:pointer; padding:1%; text-align:center; color:#FFF; }
+
+section#home .homebox .listTarefa{ border:1px solid #3498db; width:66%; height:530px; margin:1%; float:left; padding:10px; }
+section#home .homebox .listTarefa .listatarefabox{  }
+section#home .homebox .listTarefa .listatarefabox .header{ text-align:center; margin:20px 0 0 0; font-size:24px; border-bottom: 1px solid #3498db; padding-bottom: 15px }
+section#home .homebox .listTarefa .listatarefabox .body{  }
+section#home .homebox .listTarefa .listatarefabox .footer{  }
+
+/* TELA DE LOGIN */
+
+section#login{ margin:10% 0 0 0; }
+section#login .loginBox{ border: 1px solid #3498db; padding: 10px; width: 50%; margin: 0 auto; }
+section#login .loginBox header{ text-align: center; font-size: 36px; margin: 10px; }
+
+section#login .loginBox .content .formLogin{ text-align: center; width: 50%; margin: 0 auto; }
+section#login .loginBox .content .formLogin label{ margin: 10px 0 0 0; display:block; text-align:left; color:#2980b9; }
+section#login .loginBox .content .formLogin input{ margin: 5px 0 0 0; padding: 5px; width: 100%; }
+
+section#login .loginBox .footer { margin:10px 0 0 0; } 
+section#login .loginBox .footer #btnLogin{ background: #2980b9; width: 48%; margin: 25px auto; cursor:pointer; padding:1%; text-align:center; color:#FFF; }
+section#login .loginBox .footer #btnLogin a{ color:#FFF; text-decoration:none; }
+
+section#login .infoBox{ border: 1px solid #3498db; border-top:#FFF; padding: 10px; width: 50%; margin: 0 auto; text-align:right; }
+section#login .infoBox div{ text-align: right; width: 50%; margin: 0 auto; }
+section#login .infoBox div label a{ color:#2980b9; text-decoration:none; }
+
+/* TELA DE CADASTRO PESSOA */
+
+section#cadastro{ margin:4% 0 0 0; }
+section#cadastro .cadastroBox{ border: 1px solid #3498db; padding: 10px; width: 50%; margin: 0 auto; }
+section#cadastro .cadastroBox header{ text-align: center; font-size: 36px; margin: 10px; }
+
+section#cadastro .cadastroBox .content .formLogin{ text-align: center; width: 50%; margin: 0 auto; }
+section#cadastro .cadastroBox .content .formLogin label{ margin: 10px 0 0 0; display:block; text-align:left; color:#2980b9; }
+section#cadastro .cadastroBox .content .formLogin input, select{ margin: 5px 0 0 0; padding: 5px; width: 100%; }
+
+section#cadastro .cadastroBox .footer { margin:10px 0 0 0; }
+section#cadastro .cadastroBox .footer #btnCadastrar{ background: #2980b9; width: 48%; margin: 25px auto; cursor:pointer; padding:1%; text-align:center; color:#FFF; }
+
+section#cadastro .infoBox{ border: 1px solid #3498db; border-top:#FFF; padding: 10px; width: 50%; margin: 0 auto; text-align:right; }
+section#cadastro .infoBox div{ text-align: right; width: 50%; margin: 0 auto; }
+section#cadastro .infoBox div a{ color:#2980b9; text-decoration:none; }
+
+section#cadastro .errorBox{ border: 1px solid #3498db; border-top:#FFF; padding: 10px; width: 50%; margin: 0 auto; background:red; display:none; }
+section#cadastro .errorBox div{ text-align: center; width: 50%; margin: 0 auto; }
+section#cadastro .errorBox div a{ color:#2980b9; text-decoration:none; }
+
+section#cadastro .alertBox{ border: 1px solid #3498db; border-top:#FFF; padding: 10px; width: 50%; margin: 0 auto; background:yellow; display:none; }
+section#cadastro .alertBox div{ text-align: center; width: 50%; margin: 0 auto; }
+section#cadastro .alertBox div a{ color:#2980b9; text-decoration:none; }
+
+section#cadastro .successBox{ border: 1px solid #3498db; border-top:#FFF; padding: 10px; width: 50%; margin: 0 auto; background:green; display:none; }
+section#cadastro .successBox div{ text-align: center; width: 50%; margin: 0 auto; }
+section#cadastro .successBox div a{ color:#2980b9; text-decoration:none; }

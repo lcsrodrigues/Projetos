@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Laboratorio" Class="connectionDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=GMEPN001045\SQLEXPRESS;Initial Catalog=Laboratorio;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="LaboratorioConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PESSOA" Member="PESSOA">
+    <Type Name="PESSOA">
+      <Column Name="CPF" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EMAIL" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="GENERO" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="SENHA" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="PESSOA_TAREFA" Member="TAREFA" ThisKey="ID" OtherKey="RESPONSAVEL_ID" Type="TAREFA" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TAREFA" Member="TAREFA">
+    <Type Name="TAREFA">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TITULO" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DESCRICAO" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="DT_INICIO" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DT_FIM" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RESPONSAVEL_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PESSOA_TAREFA" Member="PESSOA" ThisKey="RESPONSAVEL_ID" OtherKey="ID" Type="PESSOA" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

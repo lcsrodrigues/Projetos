@@ -1,0 +1,73 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Lista de Tarefas | Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <form id="formularioHome" runat="server">
+        <section id='home'>
+			<div class='homeBox'>
+				<header>
+					<span><a href="file:///C:/Users/Meta/Desktop/ListaDeTarefas/index.html">Logout</a></span>
+					<span> | </span>
+					<span>Lucas</span>
+				</header>
+				<div class='createTarefa'>
+					<div class='tarefaBox'>
+						<div class='header'>
+							<span>CRIAR NOVA TAREFA</span>
+						</div>
+						<div class='body'>
+							<div class='formTarefa'>
+								<label>Título</label>
+								<input type='text' placeholder='Título' id='iptTitulo' />
+							</div>
+							<div class='formTarefa'>
+								<label>Descrição</label>
+								<textarea type='text' placeholder='Descrição' id='iptDescricao'></textarea>
+							</div>
+							<div class='formTarefa'>
+								<label>Data início</label>
+								<input type='date' id='iptDataInicio' />
+							</div>
+							<div class='formTarefa'>
+								<label>Data fim</label>
+								<input type='date' id='iptDataFim' />
+							</div>
+							<div class='formTarefa'>
+								<label>Responsável</label>
+								<select id="sltResponsavel">
+									<option value="1">Responsavel 1</option>
+									<option value="2">Responsavel 3</option>
+									<option value="3">Responsavel 2</option>
+								</select>
+							</div>
+						</div>
+						<div class='footer'>
+							<div id="btnSalvar">
+								SALVAR
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="listTarefa">
+					<div class='listaTarefaBox'>
+						<div class='header'>
+							<span>LISTA DE TAREFAS</span>
+						</div>
+						<div class='body'>
+							
+						</div>
+						<div class='footer'>
+							
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDeTarefas", "ListaDeTarefas\ListaDeTarefas.csproj", "{5C6B1258-590C-4CDC-9C2B-CC61BC3A1659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiListaTarefas", "WebApiListaTarefas\WebApiListaTarefas.csproj", "{4CF878BF-BEDF-478D-BBFC-2B6404978C03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C6B1258-590C-4CDC-9C2B-CC61BC3A1659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6B1258-590C-4CDC-9C2B-CC61BC3A1659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6B1258-590C-4CDC-9C2B-CC61BC3A1659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6B1258-590C-4CDC-9C2B-CC61BC3A1659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF878BF-BEDF-478D-BBFC-2B6404978C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF878BF-BEDF-478D-BBFC-2B6404978C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF878BF-BEDF-478D-BBFC-2B6404978C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF878BF-BEDF-478D-BBFC-2B6404978C03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C7C3D2B-1A37-421B-87AC-5B1A35A518DE}
+	EndGlobalSection
+EndGlobal

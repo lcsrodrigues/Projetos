@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Model">
+  <DataContextMoniker Name="/ModelDataContext" />
+  <nestedChildShapes>
+    <classShape Id="21237e78-9f6d-4181-8860-8f5135457a57" absoluteBounds="0.75, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/ModelDataContext/COLABORADOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="62aa826c-3a57-4e55-8033-7730899e460e" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="25621fac-13c0-4512-b463-201ca5294913" absoluteBounds="3.125, 1.125, 2, 1.5785953776041664">
+      <DataClassMoniker Name="/ModelDataContext/FILHO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d8aaef92-b7ff-4665-85ee-d9b6921cc019" absoluteBounds="3.14, 1.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.91429768880208); (3.125 : 1.91429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ModelDataContext/COLABORADOR/COLABORADOR_FILHO" />
+      <nodes>
+        <classShapeMoniker Id="21237e78-9f6d-4181-8860-8f5135457a57" />
+        <classShapeMoniker Id="25621fac-13c0-4512-b463-201ca5294913" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="cfdc6358-37ab-463c-b54f-9ad30e08652a" absoluteBounds="5.375, 1, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/ModelDataContext/FUNCIONARIOS" />
+      <nestedChildShapes>
+        <elementListCompartment Id="be739ae1-2044-4a72-b21c-c8d0f53ae107" absoluteBounds="5.39, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="connection">
+  <DataContextMoniker Name="/connectionDataContext" />
+  <nestedChildShapes>
+    <classShape Id="74d836eb-43c6-4616-9e6b-42bf52eb85e0" absoluteBounds="0.75, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/connectionDataContext/PESSOA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f0cddc4f-b35b-48ae-8910-09e55097569b" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2bbf12bc-8119-4239-9636-5629c84078ab" absoluteBounds="3.5, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/connectionDataContext/TAREFA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="93bbdbad-345b-4a33-abdc-a23a01b99b9e" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.85659912109375); (3.5 : 1.85659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/connectionDataContext/PESSOA/PESSOA_TAREFA" />
+      <nodes>
+        <classShapeMoniker Id="74d836eb-43c6-4616-9e6b-42bf52eb85e0" />
+        <classShapeMoniker Id="2bbf12bc-8119-4239-9636-5629c84078ab" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

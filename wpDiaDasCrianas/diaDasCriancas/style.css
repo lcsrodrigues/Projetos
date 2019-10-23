@@ -1,0 +1,19 @@
+#detalhesEmpregado, #iptNomeConjuge{ display:none; }
+
+section{ margin:15px 0; }
+
+section .divLabelForm{ background:#98FB98; padding:1%; }
+section .divLabelForm label{ font-weight:bold; }
+
+section .inputText, .inputSelect{ padding: 0.5%; width: 30%; margin:1% 0; }
+
+section .divInputForm{ padding:1% 0; }
+section .button{ background: #32CD32; padding: 1%; cursor: pointer; width:max-content; color:#FFF; }
+
+section table.tableFuncionarios{ width:100%; }
+section table.tableFuncionarios td{ text-align:center; }
+
+section .menuUl{ list-style-type:none; }
+
+.campoObrigatorio{ border-color:red; }
+

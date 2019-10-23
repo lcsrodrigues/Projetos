@@ -1,0 +1,6 @@
+C:\Users\Meta\Documents\Projetos\wpDiaDasCrianas\Model\bin\Debug\Model.dll.config
+C:\Users\Meta\Documents\Projetos\wpDiaDasCrianas\Model\bin\Debug\Model.dll
+C:\Users\Meta\Documents\Projetos\wpDiaDasCrianas\Model\bin\Debug\Model.pdb
+C:\Users\Meta\Documents\Projetos\wpDiaDasCrianas\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Meta\Documents\Projetos\wpDiaDasCrianas\Model\obj\Debug\Model.dll
+C:\Users\Meta\Documents\Projetos\wpDiaDasCrianas\Model\obj\Debug\Model.pdb

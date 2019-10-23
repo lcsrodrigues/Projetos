@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxoDeProcessos", "FluxoDeProcessos\FluxoDeProcessos.csproj", "{D87AFA62-01A3-4D88-A6F2-939EB403C68D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxoDeProcessosMVC", "FluxoDeProcessosMVC\FluxoDeProcessosMVC.csproj", "{56A167D8-8D2F-43E5-8419-4DB76850BCEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D87AFA62-01A3-4D88-A6F2-939EB403C68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D87AFA62-01A3-4D88-A6F2-939EB403C68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D87AFA62-01A3-4D88-A6F2-939EB403C68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D87AFA62-01A3-4D88-A6F2-939EB403C68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56A167D8-8D2F-43E5-8419-4DB76850BCEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A167D8-8D2F-43E5-8419-4DB76850BCEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A167D8-8D2F-43E5-8419-4DB76850BCEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A167D8-8D2F-43E5-8419-4DB76850BCEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A7E998B-807F-4033-BEF5-156088BB3AB8}
+	EndGlobalSection
+EndGlobal
