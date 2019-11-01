@@ -22,6 +22,7 @@ function slcUnidadeTrabalho_Changed()
 
 function btnSalvar_Click()
 {
+    allOk = true;
     $("#btnSalvar").click(function()
     {
         var iptObg = $(".iptObg");
@@ -37,6 +38,12 @@ function btnSalvar_Click()
                     iptObg.eq(I).css({"border-color":"#CCCCCC"});
                 },3000);
             }
+        }
+
+        if(allOk)
+        {
+            alert('Dados gravados com sucesso');
+            window.location.reload();
         }
     });
 }
