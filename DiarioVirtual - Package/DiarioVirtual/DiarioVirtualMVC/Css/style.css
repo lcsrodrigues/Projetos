@@ -1,0 +1,174 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    font-family: "Tahoma";
+    background: #D1D1D1;
+}
+
+#header {
+    width: 100%;
+    min-width: 1000px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background: #1AB188;
+}
+
+    #header .wrap {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+        #header .wrap img {
+            height: 100px;
+        }
+
+#body {
+    width: 100%;
+    min-width: 1000px;
+    padding: 0;
+    margin: 0;
+}
+
+    #body .wrap {
+        width: 1000px;
+        min-height: 600px;
+        background: #435259;
+        margin: 50px auto;
+        overflow: hidden;
+    }
+
+        #body .wrap .cNewFormLeft {
+            float: left;
+            width: 400px;
+            height: 350px;
+            background: #FFFFFF;
+            margin: 30px 15px 0 30px;
+        }
+
+            #body .wrap .cNewFormLeft input {
+                color: #4C5A63;
+                display: block;
+                width: 360px;
+                margin: 15px auto;
+                height: 50px;
+                border: 0;
+                background: #C1BDBA;
+                padding: 0 0 0 15px;
+            }
+
+            #body .wrap .cNewFormLeft #iptFile {
+                cursor: pointer;
+                text-align: center;
+                display: block;
+                background: #FFF;
+                width: 355px;
+                margin: 30px auto 0 auto;
+                height: 170px;
+                border: 2px dashed #000;
+            }
+
+        #body .wrap .cNewFormRight {
+            float: left;
+            width: 510px;
+            height: 350px;
+            background: #FFFFFF;
+            margin: 30px 15px 0 15px;
+        }
+
+            #body .wrap .cNewFormRight textarea {
+                color: #4C5A63;
+                font-family: "Tahoma";
+                resize: none;
+                display: block;
+                width: 465px;
+                margin: 15px auto;
+                height: 305px;
+                border: 0;
+                background: #C1BDBA;
+                padding: 15px 0 0 15px;
+            }
+
+        #body .wrap .divButtons {
+            float: right;
+            margin: 30px 30px 50px 0;
+        }
+
+            #body .wrap .divButtons #btnSalvar {
+                cursor: pointer;
+                width: 200px;
+                height: 50px;
+                background: #1AB188;
+                border: 0;
+                padding: 0;
+                color: #FFF;
+                font-size: 18px;
+            }
+
+                #body .wrap .divButtons #btnSalvar:hover {
+                    background: #18A17C;
+                }
+
+        #body .wrap .hrDivisor {
+            border: 1px solid #FFF;
+            width: 936px;
+            margin: 50px 30px;
+        }
+
+        #body .wrap #target {
+            list-style-type: none;
+            padding: 0;
+        }
+
+            #body .wrap #target li {
+                cursor: pointer;
+                width: 940px;
+                height: 60px;
+                background: #C1BDBA;
+                margin: 0 auto 30px auto;
+                color: #FFF;
+            }
+
+                #body .wrap #target li h1{
+                    margin: 0 0 0 20%;
+                }
+
+                #body .wrap #target li .leftSide {
+                    float: left;
+                }
+
+                    #body .wrap #target li .leftSide .dataHora {
+                        display: block;
+                        margin: 10px 0 5px 15px;
+                        font-size: 12px;
+                    }
+
+                    #body .wrap #target li .leftSide .titulo {
+                        display: block;
+                        margin: 0 0 0 15px;
+                        font-size: 22px;
+                    }
+
+                #body .wrap #target li .rightSide {
+                    float: right;
+                }
+
+                    #body .wrap #target li .rightSide img {
+                        float: right;
+                        margin: 15px 10px 0 0;
+                        display: none;
+                        width: 30px;
+                    }
+
+                #body .wrap #target li:hover {
+                    background: #1AB188;
+                }
+
+                    #body .wrap #target li:hover .rightSide img {
+                        display: block;
+                    }
+
+/*Especial Custom*/
+::-webkit-input-placeholder {
+    color: #FFF;
+}
