@@ -1,0 +1,32 @@
+body #alerts{ position: absolute; width: 100%; display: none;}
+body #alerts .wrap{ margin: 0 auto; }
+body #alerts .wrap #warning{ background-color: #FF0000; color:#FFF; width: 100%; padding: 10px 0; text-align: center;}
+
+body #content{ display: block; margin: 150px auto; }
+body #content .wrap{ max-width: 1000px; width: 100%; overflow: hidden; margin:0 auto; }
+
+body #content .wrap .sideLeft{ float:left; width: 400px; min-height: 400px; background: #1FB4A9; }
+body #content .wrap .sideLeft .logo{ text-align: center; margin: 50px 0 30px 0; }
+body #content .wrap .sideLeft hr{ width: 80%; border: 1px solid #FFA300; margin-bottom: 30px; }
+body #content .wrap .sideLeft .desc{ text-align: center; font-size: 18px; color:#FFF; }
+body #content .wrap .sideLeft .desc p{ margin: 0; }
+
+body #content .wrap .sideRight{ float:left; width: 600px; min-height: 400px; background: #E6F2F3; }
+body #content .wrap .sideRight .logo{ margin: 50px 0 0 0; }
+body #content .wrap .sideRight .logo img{ width: 130px; height: 130px; display: block; margin:0 auto; }
+
+body #content .wrap .sideRight .mark{ margin: 35px 0 0 0 }
+body #content .wrap .sideRight .mark span{ text-align: center; display: block; color:#FFF; font-weight: 500; }
+
+body #content .wrap .sideRight .formTitle{ font-size: 18px; color:#686868; border-bottom: 2px solid #FFA300; padding: 10px; width: 90%; margin: 0 auto;}
+
+body #content .wrap .sideRight .formLogin{ padding: 7px 50px; }
+body #content .wrap .sideRight .formLogin .divForm{ display: block; text-align: center; }
+body #content .wrap .sideRight .formLogin .divForm input{ font-size:18px; color:#686868; margin: 40px auto 0 auto; background: #E6F2F3; border: 0; border-bottom: 1px solid #686868; width: 260px; }
+body #content .wrap .sideRight .formLogin .divForm input:focus{ outline: none; }
+
+ body #content .wrap .sideRight .btn{ width: 97%; margin:40px 0; }
+ body #content .wrap .sideRight .btn .oButton{ margin:0 auto; }
+
+body #content .wrap .sideRight footer .wrap .others{ text-align: center; margin: 20px 0 0 0; }
+body #content .wrap .sideRight footer .wrap .others a{ font-size: 18px; color: #686868; text-decoration: none; }

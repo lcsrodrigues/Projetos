@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" type="text/css" href="../css/layout.css" />
+        <link rel="stylesheet" type="text/css" href="../css/prazoPlanoAcao.css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="../js/util.js"></script>
+        <script type="text/javascript" src="../js/prazoPlanoAcao.js"></script>
+    </head>
+    <body>
+        <!-- layout ini -->
+        <header>
+            <div class="wrap">
+                <div class="headerLeft">
+                    <img src="../images/logo_light_4.png" alt="Logo Light"/>
+                </div>
+                <div class="headerRight">
+                    <div class="title">
+                        <span>PLANO DE AÇÃO</span>
+                    </div>
+                    <div class="perfil">
+                        <div class="infoPerfil">
+                            <span>Victor Kronemberg</span>
+                        </div>
+                        <a href="file:///E:/Projetos/Plano%20de%20Ação/pages/login.html">
+                            <img src="../images/perfil.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="menu">
+            <div class="wrap">
+                <div id="megaMenu">
+                    <ul>
+                        <li><a href="../pages/listaAvaliacoes.html">LISTA DE AVALIAÇÕES</a></li>
+                        <li><a href="../pages/cadastroFornecedor.html">CADASTRO DE FORNECEDOR</a></li>
+                        <li><a href="../pages/prazoPlanoAcao.html">PRAZO DE PLANO DE AÇÃO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="alerts">
+            <div class="wrap">
+                <div class="notification internal">
+                    <span class="msgWarning"></span>
+                </div>
+            </div>
+        </div>
+        <div id="modals">
+            <div class="wrap" id="targetModals">
+                
+            </div>
+        </div>
+        <!-- layout fim -->
+
+        <div id="content">
+            <div class="wrap">
+                <div id="subHeader">
+                    <div class="wrap">
+                        <div class="sideLeft">
+                            <span>PRAZO DE PLANO DE AÇÃO - CONFIGURAÇÃO</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxSideLeft">
+                        <span>COMPETÊNCIA</span>
+                        <select>
+                            <option>JAN/2020 À MAR/2020</option>
+                            <option>ABR/2020 À JUN/2020</option>
+                            <option>JUL/2020 À SET/2020</option>
+                            <option>OUT/2020 À DEZ/2020</option>
+                        </select>
+                    </div>
+                    <div class="boxSideRight">
+                        <span>QUANTIDADE DE DIAS</span>
+                        <input type="number" id="qtdDias" />
+                    </div>
+                    <div class="btn">
+                        <div id="btnLiberar" class="oButton primary">LIBERAR</div>
+                    </div>
+                </div>
+                <hr/>
+                <div class="box">
+                    <table id="tbDetalheAvaliacaoDesktop" class="tbPrazoPlanoAcao">
+                        <thead>
+                            <th>COMPETÊNCIA</th>
+                            <th>QUANTIDADE DE DIAS</th>
+                            <th>FORNECEDOR</th>
+                            <th>CONTRATO</th>
+                            <th>AÇÕES</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>JAN/2020 À MAR/2020</td>
+                                <td>
+                                    <label class="txtQtdDias">10</label>
+                                    <input class="iptQtdDias" type="text" />
+                                </td>
+                                <td>MEDRAL</td>
+                                <td>XXXX</td>
+                                <td>
+                                    <div class="btnEditDisabled"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ABR/2020 À JUN/2020</td>
+                                <td>
+                                    <label class="txtQtdDias">10</label>
+                                    <input class="iptQtdDias" type="text" />
+                                </td>
+                                <td>META</td>
+                                <td>XXXX</td>
+                                <td>
+                                    <div class="btnEditEnabled"></div>
+                                    <div class="actions">
+                                        <div class="btnEditConfirm"></div>
+                                        <div class="btnEditCancel"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>JUL/2020 À SET/2020</td>
+                                <td>
+                                    <label class="txtQtdDias">10</label>
+                                    <input class="iptQtdDias" type="text" />
+                                </td>
+                                <td>SODEXO</td>
+                                <td>XXXX</td>
+                                <td>
+                                    <div class="btnEditEnabled"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>OUT/2020 À DEZ/2020</td>
+                                <td>
+                                    <label class="txtQtdDias">10</label>
+                                    <input class="iptQtdDias" type="text" />
+                                </td>
+                                <td>CAPGEMINI</td>
+                                <td>XXXX</td>
+                                <td>
+                                    <div class="btnEditEnabled"></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="wrap">
+                <div class="others">
+                
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

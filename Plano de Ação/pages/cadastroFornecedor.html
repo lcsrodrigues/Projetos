@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="../css/layout.css" />
+        <link rel="stylesheet" type="text/css" href="../css/cadastroFornecedor.css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="../js/util.js"></script>
+        <script type="text/javascript" src="../js/cadastroFornecedor.js"></script>
+        <!-- <script src="https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key"></script> -->
+    </head>
+    <body>
+        <!-- layout ini -->
+        <header>
+            <div class="wrap">
+                <div class="headerLeft">
+                    <img src="../images/logo_light_4.png" alt="Logo Light"/>
+                </div>
+                <div class="headerRight">
+                    <div class="title">
+                        <span>PLANO DE AÇÃO</span>
+                    </div>
+                    <div class="perfil">
+                        <div class="infoPerfil">
+                            <span>Victor Kronemberg</span>
+                        </div>
+                        <a href="file:///E:/Projetos/Plano%20de%20Ação/pages/login.html">
+                            <img src="../images/perfil.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="menu">
+            <div class="wrap">
+                <div id="megaMenu">
+                    <ul>
+                        <li><a href="../pages/listaAvaliacoes.html">LISTA DE AVALIAÇÕES</a></li>
+                        <li><a href="../pages/cadastroFornecedor.html">CADASTRO DE FORNECEDOR</a></li>
+                        <li><a href="../pages/prazoPlanoAcao.html">PRAZO DE PLANO DE AÇÃO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="alerts">
+            <div class="wrap">
+                <div class="notification internal">
+                    <span class="msgWarning"></span>
+                </div>
+            </div>
+        </div>
+        <div id="modals">
+            <div class="wrap" id="targetModals">
+                
+            </div>
+        </div>
+        <!-- layout fim -->
+        <div id="content">
+            <div class="wrap">
+                <div class="sideLeft">
+                    <div class="logo">
+                        <img src="../images/handshake.svg" />
+                    </div>
+                    <hr/>
+                    <div class="desc">
+                        <p>SISTEMA DE AVALIAÇÃO</p>
+                        <p>DE FORNECEDOR</p>
+                    </div>
+                </div>
+                <div class="sideRight">
+                    <div class="formTitle">
+                        <span>CADASTRO FORNECEDOR</span>
+                    </div>
+                    <div class="formLogin">
+                        <div class="divForm">
+                            <input type="text" id="txtLogin" placeholder="Login" />
+                        </div>
+                        <div class="divForm">
+                            <input type="text" id="txtNome" placeholder="Nome" />
+                        </div>
+                        <div class="divForm">
+                            <input type="email" id="txtEmail" placeholder="E-mail"/>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <div id="btnCadastrar" class="oButton primary">CADASTRAR</div>
+                    </div>
+                    <footer>
+                        <div class="wrap">
+                            <div class="others">
+                                <!-- <a href="file:///E:/Projetos/Plano%20de%20A%C3%A7%C3%A3o/pages/login.html">
+                                    <img src="../images/btnBack.svg" />
+                                </a> -->
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
