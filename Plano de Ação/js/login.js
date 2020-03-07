@@ -24,7 +24,7 @@ function login()
             openModalLoading();
             setTimeout(function()
             {
-                window.location.href = "file:///E:/Projetos/Plano%20de%20Ação/pages/listaAvaliacoes.html";
+                window.location.href = encodeURI("file:///D:/Projetos/Plano de Ação/pages/listaAvaliacoes.html");
             },3000);
             
         }else{
