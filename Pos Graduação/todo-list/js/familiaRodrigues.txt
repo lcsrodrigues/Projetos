@@ -1,0 +1,1 @@
+[{"nome":"Lucas","sobrenome":"Rosa Rodrigues","endereco":"Rua A","idade":25,"genero":"M"},{"nome":"Lorena","sobrenome":"Rosa Rodrigues","endereco":"Rua B","idade":26,"genero":"F"},{"nome":"Marcos","sobrenome":"Rosa Rodrigues","endereco":"Rua C","idade":24,"genero":"M"},{"nome":"Stefany","sobrenome":"Rosa Rodrigues","endereco":"Rua D","idade":26,"genero":"F"}]
