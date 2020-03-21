@@ -1,0 +1,226 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" type="text/css" href="/css/layout.css" />
+        <link rel="stylesheet" type="text/css" href="/css/detalhesAvaliacao.css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="/js/util.js"></script>
+        <script type="text/javascript" src="/js/detalhesAvaliacao.js"></script>
+    </head>
+    <body>
+        <!-- layout ini -->
+        <header>
+            <div class="wrap">
+                <div class="headerLeft">
+                    <img src="/images/logo_light_4.png" alt="Logo Light"/>
+                </div>
+                <div class="headerRight">
+                    <div class="title">
+                        <span>PLANO DE AÇÃO</span>
+                    </div>
+                    <div class="perfil">
+                        <div class="infoPerfil">
+                            <span>Victor Kronemberg</span>
+                        </div>
+                        <a href="/login.html">
+                            <img src="/images/perfil.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="menu">
+            <div class="wrap">
+                <div id="megaMenu">
+                    <ul>
+                        <li><a href="/listaAvaliacoes.html">LISTA DE AVALIAÇÕES</a></li>
+                        <li><a href="/cadastroFornecedor.html">CADASTRO DE FORNECEDOR</a></li>
+                        <li><a href="/prazoPlanoAcao.html">PRAZO DE PLANO DE AÇÃO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="alerts">
+            <div class="wrap">
+                <div class="notification internal">
+                    <span class="msgWarning"></span>
+                </div>
+            </div>
+        </div>
+        <div id="modals">
+            <div class="wrap" id="targetModals">
+                
+            </div>
+        </div>
+        <!-- layout fim -->
+
+        <div id="content">
+            <div class="wrap">
+                <div id="subHeader">
+                    <div class="wrap">
+                        <div class="sideLeft">
+                            <span>DETALHES DA AVALIAÇÃO</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <table class="tbDetalheAvaliacaoHead">
+                        <tr>
+                            <td>Fornecedor: </td>
+                            <td>Lorem Ipsum Dolor Sit Amet</td>
+                        </tr>
+                        <tr>
+                            <td>Modelo: </td>
+                            <td>XPTO</td>
+                        </tr>
+                        <tr>
+                            <td>Competência: </td>
+                            <td>Jan/2020 à Mar/2020</td>
+                        </tr>
+                        <tr>
+                            <td>Contato: </td>
+                            <td>100123456</td>
+                        </tr>
+                        <tr>
+                            <td>Localizador: </td>
+                            <td>XPTO</td>
+                        </tr>
+                        <tr>
+                            <td>Atividade: </td>
+                            <td>XPTO</td>
+                        </tr>
+                        <tr>
+                            <td>Sub Atividade: </td>
+                            <td>XPTO</td>
+                        </tr>
+                    </table>
+                    <div class="btn">
+                        <div id="btnPlanoAcao" class="oButton alert"><a href="/planoAcao.html">PLANO DE AÇÃO</a></div>
+                    </div>
+                    <div class="legends">
+                        <div class="divLegends" id="lRed">
+                            <ul>
+                                <li>0, 1, 2, 3</li>
+                                <li>Crítico</li>
+                            </ul>
+                        </div>
+                        <div class="divLegends" id="lOrange">
+                            <ul>
+                                <li>4, 5, 6</li>
+                                <li>Regular</li>
+                            </ul>
+                        </div>
+                        <div class="divLegends" id="lGreen">
+                            <ul>
+                                <li>7, 8</li>
+                                <li>Bom</li>
+                            </ul>
+                        </div>
+                        <div class="divLegends" id="lBlue">
+                            <ul>
+                                <li>9, 10</li>
+                                <li>ótimo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div class="box">
+                    <table id="tbDetalheAvaliacaoDesktop" class="tbDetalheAvaliacao">
+                        <thead>
+                            <th>Item de Avaliação</th>
+                            <th>Peso %</th>
+                            <th>Nota Máx.</th>
+                            <th>Jan/20 à Mar/20</th>
+                            <th>Alcance</th>
+                            <th>Pontos de Melhoria</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Gestão Contratual</td>
+                                <td>6,5</td>
+                                <td>0.50</td>
+                                <th>0.3530</th>
+                                <th>36%</th>
+                                <th>100%</th>
+                            </tr>
+                            <tr>
+                                <td>Imagem, relacionamento com os consumidores</td>
+                                <td>6,5</td>
+                                <td>0.50</td>
+                                <th>0.3530</th>
+                                <th>36%</th>
+                                <th>100%</th>
+                            </tr>
+                            <tr>
+                                <td>Materiais</td>
+                                <td>6,5</td>
+                                <td>0.50</td>
+                                <th>0.3530</th>
+                                <th>36%</th>
+                                <th>100%</th>
+                            </tr>
+                            <tr>
+                                <td>Qualidade dos serviços - tecnico/operacional</td>
+                                <td>6,5</td>
+                                <td>0.50</td>
+                                <th>0.3530</th>
+                                <th>36%</th>
+                                <th>100%</th>
+                            </tr>
+                            <tr>
+                                <td>Segurança no trabalho</td>
+                                <td>6,5</td>
+                                <td>0.50</td>
+                                <th>0.3530</th>
+                                <th>36%</th>
+                                <th>100%</th>
+                            </tr>
+                            <tr>
+                                <td>Serasa</td>
+                                <td>6,5</td>
+                                <td>0.50</td>
+                                <th>0.3530</th>
+                                <th>36%</th>
+                                <th>100%</th>
+                            </tr>
+                            <tr>
+                                <td>Tributos FGTS e INSS</td>
+                                <td>6,5</td>
+                                <td>0.50</td>
+                                <th>0.3530</th>
+                                <th>36%</th>
+                                <th>100%</th>
+                            </tr>
+                            <tr>
+                                <td>Veículos, equipamentos e ferramentas</td>
+                                <td>6,5</td>
+                                <td>0.50</td>
+                                <th>0.3530</th>
+                                <th>36%</th>
+                                <th>100%</th>
+                            </tr>
+                            <tr>
+                                <td>Total</td>
+                                <td>6,5</td>
+                                <td>0.50</td>
+                                <th class="total">0.3530</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="wrap">
+                <div class="others">
+                
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

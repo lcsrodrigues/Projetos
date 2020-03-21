@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="/css/layout.css" />
+        <link rel="stylesheet" type="text/css" href="/css/login.css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="/js/util.js"></script>
+        <script type="text/javascript" src="/js/login.js"></script>
+        <!-- <script src="https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key"></script> -->
+    </head>
+    <body>
+        <!-- layout ini -->
+        <header>
+            <div class="wrap">
+                <div class="headerLeft">
+                    <img src="/images/logo_light_4.png" alt="Logo Light"/>
+                </div>
+                <div class="headerRight">
+                    <div class="title">
+                        <span>PLANO DE AÇÃO</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        {{>modals}}
+        {{>alerts}}
+        
+        <!-- layout fim -->
+        <div id="content">
+            <div class="wrap">
+                <div class="sideLeft">
+                    <div class="logo">
+                        <img src="/images/handshake.svg" />
+                    </div>
+                    <hr/>
+                    <div class="desc">
+                        <p>SISTEMA DE AVALIAÇÃO</p>
+                        <p>DE FORNECEDOR</p>
+                    </div>
+                </div>
+                <div class="sideRight">
+                    <div class="formTitle">
+                        <span>LOGIN</span>
+                    </div>
+                    <div class="formLogin">
+                        <div class="divForm">
+                            <input type="text" id="txtLogin" />
+                            <img src="/images/icon_login_silver.svg" />
+                        </div>
+                        <div class="divForm">
+                            <input type="password" id="txtPassword" />
+                            <img src="/images/icon_password_silver.svg" />
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <div id="btnEntrar" class="oButton primary">ENTRAR</div>
+                    </div>
+                    <footer>
+                        <div class="wrap">
+                            <div class="others">
+                                <a href="/esqueciSenha.html" id="btnEsqueciSenha">ESQUECI MINHA SENHA</a>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

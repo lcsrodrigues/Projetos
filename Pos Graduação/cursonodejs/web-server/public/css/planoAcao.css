@@ -1,0 +1,49 @@
+body #content{ width: 1000px; margin: 0 auto 100px auto; min-height: 600px; background: #E6F2F3;}
+body #content .wrap{ max-width: 1000px; overflow: hidden; margin: 100px auto; }
+
+body #content #subHeader{ padding: 0; font-size: 18px; color:#686868; margin: 0; }
+body #content #subHeader .wrap{ max-width: 980px; margin: 0 auto; border-bottom:2px solid #FFA300; padding: 10px; background: #E6F2F3; }
+body #content #subHeader .wrap::after{ content: ""; display: block; clear: both; }
+body #content #subHeader .wrap .sideLeft{ float: left; width: 50%; }
+
+body #content .wrap .box{ width: 98%; margin: 10px auto; color:#686868; overflow: hidden;}
+body #content .wrap .box h2{ font-size: 18px; font-weight: normal; margin:0; padding: 0; }
+body #content .wrap .customBox { max-height: 250px; overflow: auto; }
+body #content .wrap hr{ border: 1px solid #FFA300; }
+
+body #content .wrap .box .historio{ text-align: justify; font-size: 12px; background: #E5E5E5; margin:10px 0; overflow: hidden; }
+body #content .wrap .box .historio p{ margin: 5px; color:#000; }
+body #content .wrap .box .historio .info{ font-size: 8px; color:#686868; float: right; }
+
+body #content .wrap .box textarea{ width: 100%; background: #E5E5E5; margin: 10px 0; resize: none; height: 70px; font-family: Arial, Helvetica, sans-serif }
+body #content .wrap .box textarea:focus{ outline: none; }
+body #content .wrap .box .filePlanoAcao{ text-align: center; background: #E5E5E5; height: 80px; color: #000; border: 1px dashed #000; }
+
+body #content .wrap .box .sideLeft{ width: 50%; float: left; }
+body #content .wrap .box .sideLeft ul{ padding: 0; list-style-type: none; margin: 0; font-size: 14px; }
+body #content .wrap .box .sideLeft ul li{ margin: 10px 0; }
+
+body #content .wrap .box .sideRight{ width: 50%; float: left; }
+body #content .wrap .box .sideRight ul{ padding: 0; list-style-type: none; margin: 0; font-size: 14px; }
+body #content .wrap .box .sideRight ul li{ margin: 10px 0; }
+
+body #content .wrap .box .lstPlanosAcao{ width: 100%; height: 200px; }
+body #content .wrap .box .lstPlanosAcao ul{ list-style: none; padding: 0; margin: 0;}
+body #content .wrap .box .lstPlanosAcao ul li { width: 100%; color:#FFF;}
+body #content .wrap .box .lstPlanosAcao ul li span{ margin:0 10px}
+body #content .wrap .box .lstPlanosAcao ul li .arrowDown{ background: url("../images/arrow_down.svg") no-repeat center; width: 40px; height: 30px; float: left; }
+body #content .wrap .box .lstPlanosAcao ul li .arrowUp{ background: url("../images/arrow_up.svg") no-repeat center; width: 40px; height: 30px; float: left; }
+body #content .wrap .box .lstPlanosAcao ul li::after{ clear: both; display: block; content:""; }
+body #content .wrap .box .lstPlanosAcao ul li div{ float: right; }
+body #content .wrap .box .lstPlanosAcao ul li div.cardTitle{ float: left; height: 27px; padding: 3px 0 0 0; }
+body #content .wrap .box .lstPlanosAcao ul li div.cardNota{ float: right; height: 27px; padding: 3px 0 0 0; border-left:3px solid #E6F2F3;}
+body #content .wrap .box .lstPlanosAcao ul li .card{ display: block; width: 100%; height: 30px; background: #04857B; margin: 5px 0; cursor: pointer; }
+body #content .wrap .box .lstPlanosAcao ul li .subCard1{ display: none; width: 95%; height: 30px; background: #329990; margin: 5px 0; cursor: pointer; }
+body #content .wrap .box .lstPlanosAcao ul li .subCard2{ display: none; width: 90%; height: 30px; background: #6BAAA5; margin: 5px 0; cursor: pointer; }
+body #content .wrap .box .lstPlanosAcao ul li .subCard3{ display: none; width: 90%; text-align: justify; background: #6BAAA5; margin: 0; background: #E5E5E5; color: #000; font-size: 12px; }
+
+body #content .wrap .btn{ width: 48%; margin:0 0 25px 0; }
+body #content .wrap .btn .oButton{ float: left!important; margin: 0 10px 0 0; }
+body #content .wrap .btn .alert{ float: right!important; }
+
+body footer .wrap .others{position: absolute; bottom: 20px; display: block; text-align: center; width: 100%; }

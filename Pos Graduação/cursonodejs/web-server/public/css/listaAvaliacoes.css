@@ -1,0 +1,25 @@
+body #content{ width: 1000px; margin: 0 auto 100px auto; min-height: 600px; background: #E6F2F3;}
+body #content .wrap{ max-width: 1000px; overflow: hidden; margin: 100px auto; }
+
+body #content #subHeader{ padding: 0; font-size: 18px; color:#686868; margin: 0; }
+body #content #subHeader .wrap{ max-width: 980px; margin: 0 auto; border-bottom:2px solid #FFA300; padding: 10px; background: #E6F2F3; }
+body #content #subHeader .wrap::after{ content: ""; display: block; clear: both; }
+body #content #subHeader .wrap .sideLeft{ float: left; width: 50%; }
+
+body #content .wrap .box{ width: 80%; margin: 50px auto; color:#686868; overflow: hidden; }
+body #content .wrap .box span{ float: left; margin:0 10px 0 0; }
+body #content .wrap .box select{ float: left; border-radius: 10px; width: 250px; border-color: #686868; color:#686868 }
+body #content .wrap .box .boxSideLeft{ width: 50%; float: left;}
+body #content .wrap .box .boxSideRight{ width: 50%; float: left;}
+
+body #content .wrap .box #deck{ margin:0 auto; overflow: hidden; width: 688px;}
+body #content .wrap .box #deck .card{ width: 150px; height: 150px; background-color: #FFF; border: 1px solid #FDB515; float: left; margin:10px }
+body #content .wrap .box #deck .card ul{ list-style-type: none; text-align: center; padding: 0;}
+body #content .wrap .box #deck .card ul a{ text-decoration: none; color:#686868; }
+body #content .wrap .box #deck .card ul a li{ margin:10px 0 }
+body #content .wrap .box #deck .card ul a li:nth-child(1){ font-weight: bold; }
+body #content .wrap .box #deck .card ul a li:nth-child(3){ font-weight: bold; }
+body #content .wrap .box #deck .card:hover{ background: #04857B; border-color: #04857B; cursor: pointer; color:#FFF; }
+body #content .wrap .box #deck .card:hover a{ color: #FFF; }
+
+body footer .wrap .others{position: absolute; bottom: 20px; display: block; text-align: center; width: 100%; }

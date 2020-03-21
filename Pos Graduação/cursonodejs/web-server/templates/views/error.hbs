@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="/css/layout.css" />
+        <link rel="stylesheet" type="text/css" href="/css/cadastroFornecedor.css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="/js/util.js"></script>
+        <script type="text/javascript" src="/js/cadastroFornecedor.js"></script>
+    </head>
+    <body>
+        {{>header}}
+        {{>menu}}
+        {{>modals}}
+        {{>alerts}}
+        
+        <div id="content">
+            <div class="wrap">
+                <div class="sideLeft">
+                    <div class="logo">
+                        <img src="/images/handshake.svg" />
+                    </div>
+                    <hr/>
+                    <div class="desc">
+                        <p>SISTEMA DE AVALIAÇÃO</p>
+                        <p>DE FORNECEDOR</p>
+                    </div>
+                </div>
+                <div class="sideRight">
+                    <div class="formTitle">
+                        <span>OCORREU UM ERRO</span>
+                    </div>
+                    <div>
+                        <p>{{errorMensage}}</p>
+                    </div>
+                    <footer>
+                        <div class="wrap">
+                            <div class="others">
+                                
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

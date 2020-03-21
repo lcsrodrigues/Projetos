@@ -1,0 +1,38 @@
+body{ margin: 0; width: 100%; min-height: 600px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+body header{ width: 100%; height: 50px; background-color: #04857B; margin: 0; }
+body header .wrap{ max-width: 1000px; margin: 0 auto; overflow: hidden; }
+body header .wrap .headerLeft{ float: left; width: 15%; height: 50px; border-right: 1px solid #FFA300; }
+body header .wrap .headerLeft img{ width:100px; height: 50px; }
+body header .wrap .headerRight{ float: left; width: 70%; height: 50px; color: #FFFFFF; font-weight: 500; }
+body header .wrap .headerRight .title{ margin:13px; width: 70%; float: left; }
+body header .wrap .headerRight .title span{ font-size: 18px; }
+
+body #content{ display: block; margin: 150px auto; }
+body #content .wrap{ max-width: 1000px; width: 100%; overflow: hidden; margin:0 auto; }
+
+body #content .wrap .sideLeft{ float:left; width: 400px; min-height: 400px; background: #1FB4A9; }
+body #content .wrap .sideLeft .logo{ text-align: center; margin: 50px 0 30px 0; }
+body #content .wrap .sideLeft hr{ width: 80%; border: 1px solid #FFA300; margin-bottom: 30px; }
+body #content .wrap .sideLeft .desc{ text-align: center; font-size: 18px; color:#FFF; }
+body #content .wrap .sideLeft .desc p{ margin: 0; }
+
+body #content .wrap .sideRight{ float:left; width: 600px; min-height: 400px; background: #E6F2F3; }
+body #content .wrap .sideRight .logo{ margin: 50px 0 0 0; }
+body #content .wrap .sideRight .logo img{ width: 130px; height: 130px; display: block; margin:0 auto; }
+
+body #content .wrap .sideRight .mark{ margin: 35px 0 0 0 }
+body #content .wrap .sideRight .mark span{ text-align: center; display: block; color:#FFF; font-weight: 500; }
+
+body #content .wrap .sideRight .formTitle{ font-size: 18px; color:#686868; border-bottom: 2px solid #FFA300; padding: 10px; width: 90%; margin: 0 auto;}
+
+body #content .wrap .sideRight .formLogin{ padding: 30px 50px; }
+body #content .wrap .sideRight .formLogin .divForm{ display: block; text-align: center; }
+body #content .wrap .sideRight .formLogin .divForm input{ text-align: center; font-size:18px; color:#686868; margin: 40px auto 0 auto; background: #E6F2F3; border: 0; border-bottom: 1px solid #686868; width: 260px; }
+body #content .wrap .sideRight .formLogin .divForm input:focus{ outline: none; }
+
+body #content .wrap .btn{ width: 97%; }
+body #content .wrap .btn .oButton{ margin:0 auto; }
+
+body #content .wrap .sideRight footer .wrap .others{ text-align: center; margin: 60px 0 0 0; }
+body #content .wrap .sideRight footer .wrap .others a{ font-size: 18px; color: #686868; text-decoration: none; }
