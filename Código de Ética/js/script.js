@@ -4,7 +4,8 @@ $(document).ready(function()
     {
         var scroll =  $("#termoContent").scrollTop();
         var maxScroll =  $("#termoContent")[0].scrollHeight - $("#termoContent").height() - 20;
-        
+        //var maxScroll = ($("#termoContent")[0].scrollHeight + 20) - $("#termoContent")[0].scrollHeight
+
         if( scroll == maxScroll )
         {
             $("#btnAceito").show();

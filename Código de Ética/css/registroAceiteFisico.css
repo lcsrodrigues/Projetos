@@ -28,10 +28,17 @@ body #subHeader .wrap{ max-width: 780px; margin: 0 auto; border-bottom:2px solid
 body #subHeader .wrap::after{ content: ""; display: block; clear: both; }
 body #subHeader .wrap .sideLeft{ float: left; width: 50%; }
 
-body #contentDesktop{ width: 800px; margin: 0 auto; min-height: 600px; background: #04857B; }
-body #contentDesktop .wrap{ max-width: 800px; margin: 0 auto; }
+body #contentDesktop{ width: 800px; margin: 0 auto; min-height: 600px; background: #fff; }
+body #contentDesktop .wrap{ max-width: 800px; margin: 0 auto; padding: 15px;}
 body #contentDesktop .wrap .termo{ margin: 0; padding: 0; }
 body #contentDesktop .wrap .termo textarea{ margin: 0; text-align: justify; width: 800px; max-height:600px; height:600px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 10px; }
+body #contentDesktop .wrap #chooseDocument{ display: none;}
+body #contentDesktop .wrap #labelChooseDocument{ text-align:center; padding:10px 0 0 0; display: inline-block; height:35px; width: 150px; background-color: #FFA300; border: 0; color:#FFF; cursor: pointer;}
+body #contentDesktop .wrap .files{}
+body #contentDesktop .wrap .files ul{ list-style-type: none; margin: 15px 0 0 0; padding: 0; }
+body #contentDesktop .wrap .files ul li{}
+body #contentDesktop .wrap .files ul li div{display: inline;}
+body #contentDesktop .wrap .files ul li div img{ cursor: pointer; width: 10px; }
 
 body #modals .wrap{ max-width: 500px; margin: 0 auto; }
 body #modals .wrap .modalBox{ position: absolute; z-index: 9000; top:200; display: none; width: 500px; background-color: #FFF; }
@@ -46,10 +53,8 @@ body #modals .wrap .modalBox .footer .sideLeft{ float: left; width:50%; }
 body #modals .wrap .modalBox .footer .sideRight{ float: left; width:50%; }
 
 body footer .wrap .others{ display: block; max-width: 800px; width: 100%; margin: 30px auto 30px auto; overflow: hidden; }
-body footer .wrap .others .sideLeft{ float: left; width: 50%; }
-body footer .wrap .others .sideLeft input{ width: 200px; background-color: #FFF; border: 0; padding: 10px; }
-body footer .wrap .others .sideRight{ float: left; width: 50%; }
-body footer .wrap .others .sideRight input{ display: none; float: right; width: 150px; background-color: #04857B; border: 0; padding: 10px; color:#FFF; cursor: pointer; }
+body footer .wrap .others .sideRight{ float: left; width: 100%; }
+body footer .wrap .others .sideRight input{ display: block; float: right; width: 150px; background-color: #04857B; border: 0; padding: 10px; color:#FFF; cursor: pointer; }
 body footer .wrap .others .sideRight input:hover{ background-color: #127c74; }
 
 #modalGenerico{ display: block; }

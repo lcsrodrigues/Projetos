@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" type="text/css" href="../css/registroAceiteFisico.css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="../js/megaMenu.js"></script>
+        <script type="text/javascript" src="../js/registroAceiteFisico.js"></script>
+    </head>
+    <header>
+        <div class="wrap">
+            <div class="logo">
+                <img src="../images/logo_light_1.svg" alt="Logo Light"/>
+            </div>
+            <div class="title">
+                <span>CÓDIGO DE ÉTICA</span>
+            </div>
+            <div class="perfil">
+                <div class="infoPerfil">
+                    <span>Victor Kronenberg</span>
+                    <span>2223538</span>
+                </div>
+                <div class="fotoPerfil">
+                    <a>
+                        <img src="../images/perfil.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--menu inicio-->
+        <div class="backgroundMegaMenu">
+            <div class="wrap">
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <div>
+                                <span>Início</span>
+                            </div>
+                        </li>
+                        <li id="menuAF">
+                            <div>
+                                <span>Aceites físicos</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="megaMenu">
+                    <ul>
+                        <li>
+                            <div>
+                                <span>Registrar aceite físico</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>Consultar aceites físicos</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>Anexar arquivos de aceites físicos</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>Gerar relatórios de aceites físicos</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--menu fim-->
+    </header>
+    <body>
+        <div class="opacity">
+            <div id="subHeader">
+                <div class="wrap">
+                    <div class="sideLeft">
+                        <span>REGISTRO DE ACEITE FÍSICO</span>
+                    </div>
+                </div>
+            </div>
+            <div id="contentDesktop" class="desktop">
+                <div class="wrap">
+                    <div class="form">
+                        <label for="chooseDocument" id="labelChooseDocument">Escolher arquivo</label>
+                        <input type="file" id="chooseDocument" />
+                    </div>
+                    <div class="files">
+                        <ul>
+                            <li>Nenhum arquivo selecionado</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="wrap">
+                    <div class="others form">
+                        <div class="sideRight">
+                            <input type="button" value="Salvar" id="btnSalvar"/>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div id="modals">
+            <div class="wrap">
+                <div class="modalBox" id="modalConfirmaDados">
+                    <div class="header">
+                        <span>CONFIRME SEUS DADOS</span>
+                    </div>
+                    <div class="body">
+                        <table>
+                            <tr>
+                                <td>
+                                    <span>Nome:</span>
+                                </td>
+                                <td>
+                                    <span>Victor de Argolo Kronenberg</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span>Matrícula:</span>
+                                </td>
+                                <td>
+                                    <span>2223538</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span>CPF:</span>
+                                </td>
+                                <td>
+                                    <span>000.000.000-00</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="footer">
+                        <div class="sideLeft">
+                            <input type="button" value="Voltar" id="btnVoltar_s"/>
+                        </div>
+                        <div class="sideRight">
+                            <input type="button" value="Confirmar" id="btnConfirmar"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="modalBox" id="modalRegistroSucesso">
+                    <div class="header">
+                        <span>SUCESSO</span>
+                    </div>
+                    <div class="body">
+                        <p>Sua adesão ao Código de Ética da Light foi registrada com sucesso.</p>
+                    </div>
+                    <div class="footer">
+                        <div>
+                            <input type="button" value="Sair" id="btnSair_s"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="modalBox" id="modalRegistroExistente">
+                    <div class="header">
+                        <span>AVISO</span>
+                    </div>
+                    <div class="body">
+                        <p>Sua adesão já foi feita no dia DD/MM/AAA.</p>
+                        <p>Caso não tenha sido você, favor entrar em contato com XPTO através do telefone 4000-000 ou e-mail xpto@light.com.br</p>
+                    </div>
+                    <div class="footer">
+                        <div>
+                            <input type="button" value="Sair" id="btnSair_e"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="modalBox" id="modalCpfIncorreto">
+                    <div class="header">
+                        <span>AVISO</span>
+                    </div>
+                    <div class="body">
+                        <p>O CPF informado não condis com seu cadastro.</p>
+                        <p>Caso as informações estejam corretas, favor entrar em contato com XPTO através do telefone 4000-000 ou e-mail xpto@light.com.br</p>
+                    </div>
+                    <div class="footer">
+                        <div>
+                            <input type="button" value="Sair" id="btnVoltar_c"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="modalBox" id="modalGenerico">
+                    <div class="header">
+                        <span>CARREGANDO...</span>
+                    </div>
+                    <div class="body">
+                        <img src="../images/light_loading.gif" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
