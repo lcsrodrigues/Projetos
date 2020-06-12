@@ -9,6 +9,9 @@ body #content .wrap .termo{ margin: 0; padding: 0; }
 body #content .wrap .termo textarea{ margin: 0; text-align: justify; width: 800px; max-height:600px; height:600px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 10px; }
 body #content .wrap #chooseDocument{ display: none;}
 body #content .wrap #labelChooseDocument{ text-align:center; padding:10px 0 0 0; display: inline-block; height:35px; width: 150px; background-color: #FFA300; border: 0; color:#FFF; cursor: pointer;}
+body #content .wrap .form>div{ overflow: hidden; }
+body #content .wrap .form .infoUsuarioLogado:nth-child(1){ margin: 0 15px 15px 0; }
+body #content .wrap .form .infoUsuarioLogado{ float: left; padding: 10px; border: 1px solid #FFA300; color:#C2C2C2; margin: 0 15px;}
 body #content .wrap .files{}
 body #content .wrap .files ul{ list-style-type: none; margin: 15px 0 0 0; padding: 0; }
 body #content .wrap .files ul li{}

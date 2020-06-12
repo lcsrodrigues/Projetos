@@ -13,8 +13,15 @@ function btnSalvar()
     $("#btnSalvar").click(function(){
         openModalLoading();
         setTimeout(function(){
-            openModal("SUCESSO","Arquivo carregado com sucesso. Você será redirecionado em breve.");
+            showAlerts("UPLOAD EFETUADO COM SUCESSO","success")
+            setTimeout(function(){
+                showAlerts("O CAMPO ANEXAR DOCUMENTO NÃO PODE FICAR EM BRANCO","alert")
+                setTimeout(function(){
+                    showAlerts("OCORREU UM ERRO AO EFETUAR O UPLOAD DO ARQUIVO","warning")
+                },3000);
+            },3000);
         },3000);
+
         closeModal();
     });
     console.log(arrayFiles)

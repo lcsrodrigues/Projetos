@@ -1,29 +1,4 @@
-body{ background-color: #43A39C; width: 100%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; border: 0; }
-
-body header{ width: 100%; height: 50px; background-color: #FFF; margin: 0; }
-body header .wrap{ max-width: 1000px; margin: 0 auto; overflow: hidden; color: #686868; font-weight: 500; }
-body header .wrap .logo{ float: left; width: 25%; height: 50px; }
-body header .wrap .logo img{ width:100px; height: 40px; padding: 5px 0 5px 10px; }
-body header .wrap .title{ margin:13px 0; width: 50%; float: left; text-align: center; }
-body header .wrap .title span{ font-size: 18px; }
-body header .wrap .perfil{ float: left; width: 25%; text-align: right; font-size: 14px; }
-body header .wrap .perfil .infoPerfil{ width: 75%; float: left; margin:5px 0 0 0; }
-body header .wrap .perfil .fotoPerfil{ width: 25%; float: left; }
-body header .wrap .perfil .fotoPerfil img{ width: 45px; height: 45px; margin: 3px 0 0 0px; }
-body header .wrap .infoPerfil span{ display: block; }
-
-body header .backgroundMegaMenu{width:100%; height:50px; background:#4A9587; }
-body header .backgroundMegaMenu .wrap .menu{ max-width:800px; width:100%; height:50px; background:#4A9587; position:absolute;top:50px }
-body header .backgroundMegaMenu .wrap .menu ul{ list-style-type:none; margin:0; }
-body header .backgroundMegaMenu .wrap .menu ul li{ float:left; margin:0; color:#FFF; cursor:pointer;}
-body header .backgroundMegaMenu .wrap .menu ul li:hover{ background:#397C70; }
-body header .backgroundMegaMenu .wrap .menu ul li div{ padding:15px }
-body header .backgroundMegaMenu .wrap .megaMenu{ display:none; background:#397C70; position:absolute; top:100px; margin:0 0 0 109px; padding:10px 20px;border: 3px solid; border-color: #FFA300; border-top: 0; border-left: 0; border-right: 0; }
-body header .backgroundMegaMenu .wrap .megaMenu ul{ list-style-type:none; margin:0; padding:0; color:#fff; }
-body header .backgroundMegaMenu .wrap .megaMenu ul li { margin:15px 0; cursor:pointer; }
-body header .backgroundMegaMenu .wrap .megaMenu ul li:hover div span{ border: 2px solid; border-color: #FFA300; border-top: 0; border-left: 0; border-right: 0; }
-
-body #subHeader{ padding: 0; font-size: 18px; color:#FFF; margin: 75px 0 0 0; }
+body #subHeader{ padding: 0; font-size: 18px; color:#FFF; margin: 100px 0 0 0; }
 body #subHeader .wrap{ max-width: 780px; margin: 0 auto; border-bottom:2px solid #FFA300; padding: 10px; background: #04857B; }
 body #subHeader .wrap::after{ content: ""; display: block; clear: both; }
 body #subHeader .wrap .sideLeft{ float: left; width: 50%; }

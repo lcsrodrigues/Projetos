@@ -1,0 +1,25 @@
+body #subHeader{ padding: 0; font-size: 18px; color:#FFF; margin: 100px 0 0 0; }
+body #subHeader .wrap{ max-width: 780px; margin: 0 auto; border-bottom:2px solid #FFA300; padding: 10px; background: #04857B; }
+body #subHeader .wrap::after{ content: ""; display: block; clear: both; }
+body #subHeader .wrap .sideLeft{ float: left; width: 50%; }
+
+body #content{ width: 800px; margin: 0 auto; min-height: 600px; background: #fff; }
+body #content .wrap{ max-width: 800px; margin: 0 auto; padding: 15px;}
+body #content .wrap .termo{ margin: 0; padding: 0; }
+body #content .wrap .termo textarea{ margin: 0; text-align: justify; width: 800px; max-height:600px; height:600px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 10px; }
+body #content .wrap #chooseDocument{ display: none;}
+body #content .wrap #labelChooseDocument{ text-align:center; padding:10px 0 0 0; display: inline-block; height:35px; width: 150px; background-color: #FFA300; border: 0; color:#FFF; cursor: pointer;}
+
+body #content .wrap #listAceiteFisico{ list-style-type: none; margin:15px 0; padding: 0; }
+body #content .wrap #listAceiteFisico>li{ background: #04857B; margin: 15px 0; }
+body #content .wrap #listAceiteFisico li .resumeAceiteFisico ul{ list-style-type: none; padding: 0; overflow: hidden; color: #fff; }
+body #content .wrap #listAceiteFisico li .resumeAceiteFisico ul li{ float: left; margin:15px; }
+body #content .wrap #listAceiteFisico li .resumeAceiteFisico ul li.open{ background: url("../images/arrow-down.svg") no-repeat center; width: 21px; height: 21px; cursor: pointer; }
+body #content .wrap #listAceiteFisico li .resumeAceiteFisico ul li.close{ background: url("../images/arrow-up.svg") no-repeat center; width: 21px; height: 21px; cursor: pointer; }
+body #content .wrap #listAceiteFisico li .resumeAceiteFisico ul li:nth-child(5){ float: right; }
+body #content .wrap #listAceiteFisico li .expandAceiteFisico{ background: #4A9587; display: none;}
+body #content .wrap #listAceiteFisico li .expandAceiteFisico ul{ list-style-type: none; margin: 0; padding: 0; overflow: hidden; color:#fff;}
+body #content .wrap #listAceiteFisico li .expandAceiteFisico ul li{ padding: 10px; width: calc(50% - 20px); float: left;}
+
+body footer .wrap .others{ display: block; max-width: 800px; width: 100%; margin: 30px auto 30px auto; overflow: hidden; }
+body footer .wrap .others .sideRight{ float: left; width: 100%; }
