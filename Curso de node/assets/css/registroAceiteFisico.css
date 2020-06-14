@@ -1,0 +1,33 @@
+body #subHeader{ padding: 0; font-size: 18px; color:#FFF; margin: 100px 0 0 0; }
+body #subHeader .wrap{ max-width: 780px; margin: 0 auto; border-bottom:2px solid #FFA300; padding: 10px; background: #04857B; }
+body #subHeader .wrap::after{ content: ""; display: block; clear: both; }
+body #subHeader .wrap .sideLeft{ float: left; width: 50%; }
+
+body #content{ width: 800px; margin: 0 auto; min-height: 600px; background: #fff; }
+body #content .wrap{ max-width: 800px; margin: 0 auto; padding: 15px;}
+body #content .wrap .termo{ margin: 0; padding: 0; }
+body #content .wrap .termo textarea{ margin: 0; text-align: justify; width: 800px; max-height:600px; height:600px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 10px; }
+body #content .wrap #chooseDocument{ display: none;}
+body #content .wrap #labelChooseDocument{ text-align:center; padding:10px 0 0 0; display: inline-block; height:35px; width: 150px; background-color: #FFA300; border: 0; color:#FFF; cursor: pointer;}
+body #content .wrap .files{}
+body #content .wrap .files ul{ list-style-type: none; margin: 15px 0 0 0; padding: 0; }
+body #content .wrap .files ul li{}
+body #content .wrap .files ul li div{display: inline;}
+body #content .wrap .files ul li div img{ cursor: pointer; width: 10px; }
+
+body #modals .wrap{ max-width: 500px; margin: 0 auto; }
+body #modals .wrap .modalBox{ position: absolute; z-index: 9000; top:200; display: none; width: 500px; background-color: #FFF; }
+body #modals .wrap .modalBox .header{ height: 50px; padding:30px 0 0 0; border-bottom: 3px solid #FFA300; background: #04857B; color:#FFF; text-align: center; }
+body #modals .wrap .modalBox .body{ min-height: 150px; margin: 20px; text-align: center; }
+body #modals .wrap .modalBox .body table{ margin:0 auto; }
+body #modals .wrap .modalBox .body table tr td{ padding: 0 30px; }
+body #modals .wrap .modalBox .footer{ overflow: hidden; height: 50px; text-align: center;  margin:20px }
+body #modals .wrap .modalBox .footer input{ width: 150px; background-color: #04857B; border: 0; padding: 10px; color:#FFF; cursor: pointer; }
+body #modals .wrap .modalBox .footer input:hover{ background-color: #127c74; }
+body #modals .wrap .modalBox .footer .sideLeft{ float: left; width:50%; }
+body #modals .wrap .modalBox .footer .sideRight{ float: left; width:50%; }
+
+body footer .wrap .others{ display: block; max-width: 800px; width: 100%; margin: 30px auto 30px auto; overflow: hidden; }
+body footer .wrap .others .sideRight{ float: left; width: 100%; }
+body footer .wrap .others .sideRight input{ display: block; float: right; width: 150px; background-color: #04857B; border: 0; padding: 10px; color:#FFF; cursor: pointer; }
+body footer .wrap .others .sideRight input:hover{ background-color: #127c74; }

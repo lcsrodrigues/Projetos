@@ -1,0 +1,52 @@
+body{ background-color: #43A39C; width: 100%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; border: 0; }
+
+header{ width: 100%; height: 50px; background-color: #FFF; margin: 0; }
+header .wrap{ max-width: 1000px; margin: 0 auto; overflow: hidden; color: #686868; font-weight: 500; }
+header .wrap .logo{ float: left; width: 25%; height: 50px; }
+header .wrap .logo img{ width:100px; height: 40px; padding: 5px 0 5px 10px; }
+header .wrap .title{ margin:13px 0; width: 50%; float: left; text-align: center; }
+header .wrap .title span{ font-size: 18px; }
+header .wrap .perfil{ float: left; width: 25%; text-align: right; font-size: 14px; }
+header .wrap .perfil .infoPerfil{ width: 75%; float: left; margin:5px 0 0 0; }
+header .wrap .perfil .fotoPerfil{ width: 25%; float: left; }
+header .wrap .perfil .fotoPerfil img{ width: 45px; height: 45px; margin: 3px 0 0 0px; }
+header .wrap .infoPerfil span{ display: block; }
+
+/*MEGA MENU*/
+header .backgroundMegaMenu{width:100%; height:50px; background:#4A9587; }
+header .backgroundMegaMenu .wrap .menu{ max-width:800px; width:100%; height:50px; background:#4A9587; position:absolute;top:50px }
+header .backgroundMegaMenu .wrap .menu ul{ list-style-type:none; margin:0; }
+header .backgroundMegaMenu .wrap .menu ul li{ float:left; margin:0; color:#FFF; cursor:pointer;}
+header .backgroundMegaMenu .wrap .menu ul li:hover{ background:#397C70; }
+header .backgroundMegaMenu .wrap .menu ul li div{ padding:15px }
+header .backgroundMegaMenu .wrap .menu ul li div a{ text-decoration: none; color: #FFF; }
+header .backgroundMegaMenu .wrap .megaMenu{ display:none; background:#397C70; position:absolute; top:100px; margin:0 0 0 109px; padding:10px 20px;border: 3px solid; border-color: #FFA300; border-top: 0; border-left: 0; border-right: 0; }
+header .backgroundMegaMenu .wrap .megaMenu ul{ list-style-type:none; margin:0; padding:0; color:#fff; }
+header .backgroundMegaMenu .wrap .megaMenu ul li { margin:15px 0; cursor:pointer; }
+header .backgroundMegaMenu .wrap .megaMenu ul li div a{ text-decoration:none; color:#FFF }
+header .backgroundMegaMenu .wrap .megaMenu ul li:hover div a{ border: 2px solid; border-color: #FFA300; border-top: 0; border-left: 0; border-right: 0; }
+
+/*MODAL*/
+header #modals .wrap{ max-width: 500px; margin: 0 auto; }
+header #modals .wrap .modalBox{ position: absolute; z-index: 9000; top:200; display: none; width: 500px; background-color: #FFF; }
+header #modals .wrap .modalBox .header{ height: 50px; padding:30px 0 0 0; border-bottom: 3px solid #FFA300; background: #04857B; color:#FFF; text-align: center; }
+header #modals .wrap .modalBox .body{ min-height: 150px; margin: 20px; text-align: center; }
+header #modals .wrap .modalBox .body img{ border-radius: 50%; }
+header #modals .wrap .modalBox .footer{ overflow: hidden; height: 50px; text-align: center;  margin:20px }
+header #modals .wrap .modalBox .footer .btn{ width: 100%; }
+header #modals .wrap .modalBox .footer .btn .oButton{ margin:0 auto; }
+
+/*BOTÕES*/
+.btn{ display: block; padding: 10px; width: 45%; float: left; }
+.btn::after{ clear: both; content:""; display: block; }
+.btn .oButton{cursor: pointer; font-size: 14px; color: #FFF; width: 132px; padding: 7px; height: 35px; text-align: center;}
+.btn .oButton a{ text-decoration: none; color:#FFF; padding: 10px;}
+
+/*ALERTAS*/
+body .alerts{ position: absolute; width: 100%; display: none; margin: 0;}
+body .alerts .notification{ color:#FFF; width:calc(100% - 4px); text-align: center; border:2px solid; display: none; }
+
+.success{ border:2px solid #0FC22B!important; background-color: #0FC22B!important; display:block!important; }
+.alert{   border:2px solid #FFA300!important; background-color: #FFA300!important; display:block!important; }
+.warning{ border:2px solid #FF0000!important; background-color: #FF0000!important; display:block!important; }
+.primary{ border:2px solid #00B0A2!important; background-color: #00B0A2!important; display:block!important; }

@@ -1,0 +1,31 @@
+body #subHeader{ padding: 0; font-size: 18px; color:#FFF; margin: 100px 0 0 0; }
+body #subHeader .wrap{ max-width: 780px; margin: 0 auto; border-bottom:2px solid #FFA300; padding: 10px; background: #04857B; }
+body #subHeader .wrap::after{ content: ""; display: block; clear: both; }
+body #subHeader .wrap .sideLeft{ float: left; width: 50%; }
+
+body #contentDesktop{ width: 800px; margin: 0 auto; min-height: 600px; background: #04857B; }
+body #contentDesktop .wrap{ max-width: 800px; margin: 0 auto; }
+body #contentDesktop .wrap .termo{ margin: 0; padding: 0; }
+body #contentDesktop .wrap .termo textarea{ margin: 0; text-align: justify; width: 780px; max-height:600px; height:600px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 10px; }
+
+body #modals .wrap{ max-width: 500px; margin: 0 auto; }
+body #modals .wrap .modalBox{ position: absolute; z-index: 9000; top:200px; display: none; width: 500px; background-color: #FFF; }
+body #modals .wrap .modalBox .header{ height: 50px; padding:30px 0 0 0; border-bottom: 3px solid #FFA300; background: #04857B; color:#FFF; text-align: center; }
+body #modals .wrap .modalBox .body{ min-height: 150px; margin: 20px; text-align: center; }
+body #modals .wrap .modalBox .body table{ margin:0 auto; }
+body #modals .wrap .modalBox .body table tr td{ padding: 0 30px; }
+body #modals .wrap .modalBox .footer{ overflow: hidden; height: 50px; text-align: center;  margin:20px }
+body #modals .wrap .modalBox .footer input{ width: 150px; background-color: #04857B; border: 0; padding: 10px; color:#FFF; cursor: pointer; }
+body #modals .wrap .modalBox .footer input:hover{ background-color: #127c74; }
+body #modals .wrap .modalBox .footer .sideLeft{ float: left; width:50%; }
+body #modals .wrap .modalBox .footer .sideRight{ float: left; width:50%; }
+
+body footer .wrap .others{ display: block; max-width: 800px; width: 100%; margin: 30px auto 30px auto; overflow: hidden; }
+body footer .wrap .others .sideLeft{ float: left; width: 50%; }
+body footer .wrap .others .sideLeft input{ width: 200px; background-color: #FFF; border: 0; padding: 10px; }
+body footer .wrap .others .sideRight{ float: left; width: 50%; }
+body footer .wrap .others .sideRight input{ display: block; float: right; width: 150px; background-color: #04857B; border: 0; padding: 10px; color:#FFF; cursor: pointer; }
+body footer .wrap .others .sideRight input:hover{ background-color: #127c74; }
+
+#modalGenerico{ display: block; }
+#modalGenerico img{ border-radius: 50%; }

@@ -3,8 +3,89 @@
     <head>
         <meta charset="UTF-8">
         <title>Estudos node</title>
+        <link rel="stylesheet" type="text/css" href="/css/layout.css" />
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     </head>
+    <header>
+        <div class="wrap">
+            <div class="logo">
+                <img src="/images/logo_light_1.svg" alt="Logo Light"/>
+            </div>
+            <div class="title">
+                <span>CÓDIGO DE ÉTICA</span>
+            </div>
+            <div class="perfil">
+                <div class="infoPerfil">
+                    <span>Victor Kronenberg</span>
+                    <span>2223538</span>
+                </div>
+                <div class="fotoPerfil">
+                    <a>
+                        <img src="/images/perfil.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="backgroundMegaMenu">
+            <div class="wrap">
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <div>
+                                <a href="/">Início</a>
+                            </div>
+                        </li>
+                        <li id="menuAF">
+                            <div>
+                                <a>Aceites físicos</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="megaMenu">
+                    <ul>
+                        <li>
+                            <div>
+                                <a href="/aceite-fisico/registrar">Registrar aceite físico</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="aceite-fisico/consultar">Consultar aceites físicos</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="aceite-fisico/anexar">Anexar arquivos de aceites físicos</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="aceite-fisico/relatorio">Gerar relatórios de aceites físicos</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="alerts">
+        <div class="notification internal">
+            <span class="msgWarning"></span>
+        </div>
+        </div>
+        
+        <div id="modals">
+            <div class="wrap" id="targetModals">
+                
+            </div>
+        </div>
+    </header>
     <body>
-        {{body}}
+        {{{body}}}
     </body>
+    <script type="text/javascript" src="/js/util.js"></script>
+    <script type="text/javascript" src="/js/megaMenu.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
 </html>
