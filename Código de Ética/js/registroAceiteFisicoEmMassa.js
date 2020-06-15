@@ -11,13 +11,43 @@ $(document).ready(function()
 function btnSalvar()
 {
     $("#btnSalvar").click(function(){
-        openModalLoading();
-        setTimeout(function(){
-            openModal("SUCESSO","Arquivo carregado com sucesso. Você será redirecionado em breve.");
-        },3000);
-        closeModal();
+        goToTop()
+        $(".removeFile").hide()
+        if(arrayFiles.length)
+        {
+            openModalLoading();
+            setTimeout(function(){
+                openModal("SUCESSO","<strong>1</strong> Arquivo(s) carregado(s) com sucesso.<br/><strong>"+(arrayFiles.length-1)+"</strong> arquivo(s) com falha(s).");
+            },3000);
+            
+            closeModal()
+            if((arrayFiles.length -1))
+            {
+                var html = "";
+                
+                html+="<tr>";
+                html+="    <th>Título</th>";
+                html+="    <th>Extensão</th>";
+                html+="    <th>Tamanho</th>";
+                html+="</tr>";
+                for(let I=0; I<arrayFiles.length-1; I++)
+                {
+                    var filesizeMB =  arrayFiles[I].file.size / 1024;
+
+                    html+="<tr>";
+                    html+="    <td>"+arrayFiles[I].file.name+"</td>";
+                    html+="    <td>"+arrayFiles[I].file.type+"</td>";
+                    html+="    <td>"+Math.round(filesizeMB)+" KB</td>";
+                    html+="</tr>";
+                }
+                $("#target").html(html)
+            }
+            console.log(arrayFiles)
+        }else{
+            showAlerts('Por favor selecione um arquivo','alert')
+            return false
+        }
     });
-    console.log(arrayFiles)
 }
 
 function removeFile()
@@ -61,7 +91,8 @@ function chooseFile()
         }
 
         arrayFiles.push(file)
-        
+        $("input[type=file]").val("")
+
         var html = "";
         for(let I=0; I<arrayFiles.length; I++)
         {

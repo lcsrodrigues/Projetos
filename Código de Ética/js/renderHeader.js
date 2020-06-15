@@ -46,7 +46,7 @@ function renderHeader()
     html+='            <ul>';
     html+='                <li>';
     html+='                    <div>';
-    html+='                        <a href="../pages/registroAceiteFisico.html">Registrar aceite físico</a>';
+    html+='                        <a href="../pages/registroAceiteFisicoEmMassa.html">Registrar aceite físico em massa</a>';
     html+='                    </div>';
     html+='                </li>';
     html+='                <li>';

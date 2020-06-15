@@ -39,8 +39,8 @@ header #modals .wrap .modalBox .footer .btn .oButton{ margin:0 auto; }
 /*BOTÕES*/
 .btn{ display: block; padding: 10px; width: 45%; float: left; }
 .btn::after{ clear: both; content:""; display: block; }
-.btn .oButton{cursor: pointer; font-size: 14px; color: #FFF; width: 132px; padding: 7px; height: 35px; text-align: center;}
-.btn .oButton a{ text-decoration: none; color:#FFF; padding: 10px;}
+.oButton{cursor: pointer; font-size: 14px; color: #FFF; width: 150px; padding: 7px; height: 35px; text-align: center;}
+.oButton a{ text-decoration: none; color:#FFF; padding: 10px;}
 
 /*ALERTAS*/
 body .alerts{ position: absolute; width: 100%; display: none; margin: 0;}

@@ -1,0 +1,17 @@
+*Registro de aceite físico*
+Informar upload com sucesso/falha (quantidade) no modal. - OK
+Exibir uma grid abaixo com os que deram falha. - OK
+Colocar um modelo para efetuar download do modelo a ser preenchido das adesões em massa. - OK
+Alterar o nome "Registro de aceite físico" para "Registro de aceites físicos em massa" - OK
+
+*Consulta aceite físico*
+Criar um filtro para consulta dos aceites físicos - OK
+- Matrícula
+- Data
+- Nome
+- CPF
+Ao clicar no "status do anexo de aceite físico" (pendente) redirecionar o "anexar arquivo de aceite físico" - OK
+
+*Registro de aceite físico*
+Inserir filtro (CPF/Matricula) para localizar o usuario a ser feito o upload do arquivo. - OK
+Carregar os dados do usuário nos campos quando vier da consulta de aceites físicos

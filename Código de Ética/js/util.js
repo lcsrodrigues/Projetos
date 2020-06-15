@@ -8,6 +8,12 @@ function validateForms(input)
     }
 }
 
+function goToTop()
+{
+    $('html, body').animate({scrollTop : 0},300);
+    return false;
+}
+
 function disabledFunctions()
 {
     $("#content").css("opacity",0.5);
@@ -89,8 +95,8 @@ function openModalLoading()
 
 function openModal(title, content)
 {
-    $("#msgModal").text(content);
-    $("#titleModal").text(title);
+    $("#msgModal").html(content);
+    $("#titleModal").html(title);
     
     $("#modalInformation").show();
     disabledFunctions();

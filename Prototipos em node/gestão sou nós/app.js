@@ -13,6 +13,7 @@ const fornecedor = require("./routers/fornecedor/fornecedor")
 
 app.engine("handlebars",handlebars({defaultLayout:"main"}))
 app.set("engine view","handlebars")
+
 app.use(express.static(path.join(__dirname,"assets")))
 
 app.use(bodyParser.urlencoded({extended: false}))

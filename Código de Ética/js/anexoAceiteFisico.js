@@ -11,6 +11,9 @@ $(document).ready(function()
 function btnSalvar()
 {
     $("#btnSalvar").click(function(){
+        goToTop()
+        if(arrayFiles.length)
+        {
         openModalLoading();
         setTimeout(function(){
             showAlerts("UPLOAD EFETUADO COM SUCESSO","success")
@@ -22,9 +25,13 @@ function btnSalvar()
             },3000);
         },3000);
 
+        console.log(arrayFiles)
         closeModal();
+        }else{
+            showAlerts('Por favor selecione um arquivo','alert')
+            return false
+        }
     });
-    console.log(arrayFiles)
 }
 
 function removeFile()

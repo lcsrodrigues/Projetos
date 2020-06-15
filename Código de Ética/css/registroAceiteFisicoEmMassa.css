@@ -1,7 +1,9 @@
 body #subHeader{ padding: 0; font-size: 18px; color:#FFF; margin: 100px 0 0 0; }
 body #subHeader .wrap{ max-width: 780px; margin: 0 auto; border-bottom:2px solid #FFA300; padding: 10px; background: #04857B; }
 body #subHeader .wrap::after{ content: ""; display: block; clear: both; }
-body #subHeader .wrap .sideLeft{ float: left; width: 50%; }
+body #subHeader .wrap .sideLeft{ float: left; width: 50%; overflow: hidden; }
+body #subHeader .wrap .modeloMassa{ float: right; }
+body #subHeader .wrap .modeloMassa img{ width: 20px; height: 20px; cursor: pointer;}
 
 body #content{ width: 800px; margin: 0 auto; min-height: 600px; background: #fff; }
 body #content .wrap{ max-width: 800px; margin: 0 auto; padding: 15px;}
@@ -14,6 +16,12 @@ body #content .wrap .files ul{ list-style-type: none; margin: 15px 0 0 0; paddin
 body #content .wrap .files ul li{}
 body #content .wrap .files ul li div{display: inline;}
 body #content .wrap .files ul li div img{ cursor: pointer; width: 10px; }
+
+body #content .wrap .grid{ margin: 15px 0 0 0; }
+body #content .wrap .grid table{ width: 100%; border-collapse: collapse; }
+body #content .wrap .grid table tr:nth-child(even){ background: #FFFFF0; }
+body #content .wrap .grid table tr th{ border: 1px solid #000; }
+body #content .wrap .grid table tr td{ text-align: center; border: 1px solid #000; }
 
 body #modals .wrap{ max-width: 500px; margin: 0 auto; }
 body #modals .wrap .modalBox{ position: absolute; z-index: 9000; top:200; display: none; width: 500px; background-color: #FFF; }

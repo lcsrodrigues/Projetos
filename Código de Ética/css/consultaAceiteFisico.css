@@ -10,16 +10,28 @@ body #content .wrap .termo textarea{ margin: 0; text-align: justify; width: 800p
 body #content .wrap #chooseDocument{ display: none;}
 body #content .wrap #labelChooseDocument{ text-align:center; padding:10px 0 0 0; display: inline-block; height:35px; width: 150px; background-color: #FFA300; border: 0; color:#FFF; cursor: pointer;}
 
+body #content .wrap .filter{ background-color: #43A39C; width: 100%; min-height: 80px; }
+body #content .wrap .filter ul{ list-style-type: none; margin: 0; padding: 0; overflow: hidden; }
+body #content .wrap .filter ul li{ float: left; width: 25%;}
+body #content .wrap .filter ul li input{ width: 80%; padding: 5px; margin: 10px; border: 0;}
+body #content .wrap .filter ul li input:focus{ outline: none; }
+body #content .wrap .filter ul:last-child li{width: 100%;}
+body #content .wrap .filter ul:last-child li input[type=button]{ display: block; width: 150px; background-color: #04857B; border: 0; padding: 10px; color:#FFF; cursor: pointer; }
+body #content .wrap .filter ul:last-child li input[type=button]:hover{ background-color: #127c74; }
+
 body #content .wrap #listAceiteFisico{ list-style-type: none; margin:15px 0; padding: 0; }
 body #content .wrap #listAceiteFisico>li{ background: #04857B; margin: 15px 0; }
 body #content .wrap #listAceiteFisico li .resumeAceiteFisico ul{ list-style-type: none; padding: 0; overflow: hidden; color: #fff; }
 body #content .wrap #listAceiteFisico li .resumeAceiteFisico ul li{ float: left; margin:15px; }
-body #content .wrap #listAceiteFisico li .resumeAceiteFisico ul li.open{ background: url("../images/arrow-down.svg") no-repeat center; width: 21px; height: 21px; cursor: pointer; }
-body #content .wrap #listAceiteFisico li .resumeAceiteFisico ul li.close{ background: url("../images/arrow-up.svg") no-repeat center; width: 21px; height: 21px; cursor: pointer; }
+body #content .wrap #listAceiteFisico li .resumeAceiteFisico ul li.open{ background: url("../images/arrow-up.svg") no-repeat center; width: 21px; height: 21px; cursor: pointer; }
+body #content .wrap #listAceiteFisico li .resumeAceiteFisico ul li.close{ background: url("../images/arrow-down.svg") no-repeat center; width: 21px; height: 21px; cursor: pointer; }
 body #content .wrap #listAceiteFisico li .resumeAceiteFisico ul li:nth-child(5){ float: right; }
 body #content .wrap #listAceiteFisico li .expandAceiteFisico{ background: #4A9587; display: none;}
 body #content .wrap #listAceiteFisico li .expandAceiteFisico ul{ list-style-type: none; margin: 0; padding: 0; overflow: hidden; color:#fff;}
 body #content .wrap #listAceiteFisico li .expandAceiteFisico ul li{ padding: 10px; width: calc(50% - 20px); float: left;}
+body #content .wrap #listAceiteFisico li .expandAceiteFisico ul li a{ text-decoration: none; color:#fff }
+body #content .wrap #listAceiteFisico li .expandAceiteFisico ul li a.pendente{ color: #FFA300; }
+body #content .wrap #listAceiteFisico li .expandAceiteFisico ul li a.aprovado{ color: #0FC22B; }
 
 body footer .wrap .others{ display: block; max-width: 800px; width: 100%; margin: 30px auto 30px auto; overflow: hidden; }
 body footer .wrap .others .sideRight{ float: left; width: 100%; }

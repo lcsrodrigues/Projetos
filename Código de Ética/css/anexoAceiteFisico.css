@@ -10,13 +10,21 @@ body #content .wrap .termo textarea{ margin: 0; text-align: justify; width: 800p
 body #content .wrap #chooseDocument{ display: none;}
 body #content .wrap #labelChooseDocument{ text-align:center; padding:10px 0 0 0; display: inline-block; height:35px; width: 150px; background-color: #FFA300; border: 0; color:#FFF; cursor: pointer;}
 body #content .wrap .form>div{ overflow: hidden; }
-body #content .wrap .form .infoUsuarioLogado:nth-child(1){ margin: 0 15px 15px 0; }
-body #content .wrap .form .infoUsuarioLogado{ float: left; padding: 10px; border: 1px solid #FFA300; color:#C2C2C2; margin: 0 15px;}
-body #content .wrap .files{}
+body #content .wrap .form .infoUsuarioLogado:nth-child(1){ margin: 15px 15px 15px 0; }
+body #content .wrap .form .infoUsuarioLogado{ float: left; padding: 10px; border: 1px solid #FFA300; color:#C2C2C2; margin: 15px 15px 15px 0;}
+
 body #content .wrap .files ul{ list-style-type: none; margin: 15px 0 0 0; padding: 0; }
-body #content .wrap .files ul li{}
 body #content .wrap .files ul li div{display: inline;}
 body #content .wrap .files ul li div img{ cursor: pointer; width: 10px; }
+
+body #content .wrap .filter{ background-color: #43A39C; width: 100%; min-height: 80px; }
+body #content .wrap .filter ul{ list-style-type: none; margin: 0; padding: 0; overflow: hidden; }
+body #content .wrap .filter ul li{ float: left; width: 25%;}
+body #content .wrap .filter ul li input{ width: 80%; padding: 5px; margin: 10px; border: 0;}
+body #content .wrap .filter ul li input:focus{ outline: none; }
+body #content .wrap .filter ul:last-child li{width: 100%;}
+body #content .wrap .filter ul:last-child li input[type=button]{ display: block; width: 150px; background-color: #04857B; border: 0; padding: 10px; color:#FFF; cursor: pointer; }
+body #content .wrap .filter ul:last-child li input[type=button]:hover{ background-color: #127c74; }
 
 body #modals .wrap{ max-width: 500px; margin: 0 auto; }
 body #modals .wrap .modalBox{ position: absolute; z-index: 9000; top:200; display: none; width: 500px; background-color: #FFF; }
