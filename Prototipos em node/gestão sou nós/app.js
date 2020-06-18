@@ -12,14 +12,14 @@ const tarefa = require("./routers/tarefa/tarefa")
 const fornecedor = require("./routers/fornecedor/fornecedor")
 
 app.engine("handlebars",handlebars({defaultLayout:"main"}))
-app.set("engine view","handlebars")
+app.set("view engine","handlebars")
 
 app.use(express.static(path.join(__dirname,"assets")))
 
-app.use(bodyParser.urlencoded({extended: false}))
+app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 
-app.use("/home",home)
+app.use("/",home)
 app.use("/material",material)
 app.use("/orcamento",orcamento)
 app.use("/profissional",profissional)

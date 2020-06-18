@@ -1,0 +1,14 @@
+<link rel="stylesheet" type=" text/css" href="/css/fornecedores.css">
+
+<div class="container2">
+    <form class="form_cad" action="/fornecedor/novo" method="POST">
+        <input name="Nome" type="text" placeholder="Fornecedor">
+        {{!-- <input name="Data" type="date" placeholder="Data"> --}}
+        <input name="AreaAtuacao" type="text" placeholder="Area de atuação">
+        <textarea id="observacaoFornecedor" name="Observacoes" rows="10" cols="30" placeholder="Observações"></textarea>
+        <div class="btn_form">                
+            {{!-- <input type="button" value="Cancelar" /> --}}
+            <input type="submit" value="Salvar" id="btnSalvar"/>
+        </div>
+    </form>
+</div>

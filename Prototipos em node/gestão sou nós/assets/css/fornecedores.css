@@ -1,0 +1,213 @@
+.container2 {
+    width: 850px;
+    min-height: 600px;
+    background-color: #FFF;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;    
+    position: relative;
+    left: 0;
+}
+
+.info_pesquisa {
+    height: 30px;
+    margin: 0 30px 0 30px;
+    position: relative;
+}
+
+.titulo_h2_sub_pag {
+    position: absolute;
+    font-size: 24px;
+    font-weight: normal;
+    color: #8b8b8b;
+}
+.busca_area {
+    width: 225px;
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+
+.form_text_seach input{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2px;
+    margin-right: 20px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1.5px #000 solid;
+    border-left: none;
+    float: left;
+    outline: none;
+    background: url(../images/lupa.svg) no-repeat;
+}
+
+.form_text_seach input::-webkit-input-placeholder {
+    color: #c4c4c4;
+}
+
+.plus {
+    width: 20px;
+    margin-top: 1.5px;
+    cursor: pointer;
+    float: left;
+}
+
+.titulo_id {
+    width: 850px;
+    height: 50px;
+    margin: 65px 0 0 0;
+}
+
+.titulo_id ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo_id ul li{
+    float: left;
+    margin: 0 8%;
+}
+
+.titulo_id .larg_forn {
+    color: #8b8b8b;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.item_lista_forn {
+    width: 850px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.item_lista_forn .itens:hover {
+    outline: 1px rgba(0, 0, 0, 0.1) solid;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.icon_acoes {
+    height: 50px;
+    margin-left: 30px;
+    padding-top: 13px;
+    float: left;
+}
+
+.icon_acoes img:first-child {
+    margin-right: 10px;
+}
+
+.icon_acoes img {
+    cursor: pointer;
+}
+
+.nome_forn {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 70px;
+    display: inline-block;
+}
+
+.area_forn {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 60px;
+    display: inline-block;
+}
+
+.data_forn {
+    width: 150px;
+    height: 50px;
+    text-align: right;
+    padding-top: 15px;
+    margin-left: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+}
+
+.form_cad {
+    width: 790px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+input:focus {
+    outline: none;
+}
+
+form input[type=text] {
+    width: calc(50% - 5px);
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px #8b8b8b59 solid;
+    border-radius: 5px;
+}
+
+form input[type=text]:last-of-type {
+    width: calc(50% - 5px);
+    margin-right: 0;
+}
+
+form input[type=date] {
+    width: 160px;
+    margin-right: 5px;
+    padding: 8px;
+    border: 1px #8b8b8b59 solid;
+    border-radius: 5px;
+}
+
+.form_cad textarea {
+    width: 790px;
+    margin-top: 30px;
+    margin-right: 30px;
+    border: 1px #8b8b8b59 solid;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+}
+
+.form_cad textarea {
+    outline: none;
+}
+
+.form_cad textarea::placeholder {
+    color: #8b8b8b;
+}
+
+.btn_form {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.form_cad input[type=button] {
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: #ED561B;
+    cursor: pointer;
+}
+.form_cad input[type=submit] {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: #1AB394;
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.titulo_id .larg_orc {
+    width: 154px;
+    color: #8b8b8b;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    margin-right: 14px;
+    float: left;
+}
+
+.titulo_id .larg_orc:first-child {
+    width: 120px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.titulo_id .larg_orc:last-child {
+    width: 180px;
+    text-align: center;
+    margin-right: 30px;
+}
+.serv_orc {
+    width: 154px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.prof_orc {
+    width: 154px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.prec_orc {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 35px;
+    display: inline-block;
+}
+.data_orc {
+    width: 165px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 55px;
+    display: inline-block;
+}

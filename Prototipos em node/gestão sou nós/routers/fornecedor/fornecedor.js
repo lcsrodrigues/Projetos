@@ -1,25 +1,45 @@
 const express = require("express")
 const router = express.Router()
 const modelFornecedor = require("../../models/Fornecedor")
+const util = require("../../assets/js/util")
 
 router.get("/",(req, res)=>{
-    modelFornecedor.findAll().then((data)=>{
-        res.send(data)
+
+    modelFornecedor.findAll().then((fornecedores)=>{
+        var arrayFornecedores = []
+        for(let I=0; I<fornecedores.length; I++)
+        {
+            let obj = {
+                "id":fornecedores[I].id,
+                "nome":fornecedores[I].NOME,
+                "area_atuacao":fornecedores[I].AREA_ATUACAO,
+                "observacao":fornecedores[I].OBSERVACAO,
+                "created":util.convertCommonDate(fornecedores[I].createdAt),
+                "updated":util.convertCommonDate(fornecedores[I].updatedAt)
+            }
+            arrayFornecedores.push(obj)
+        }
+        res.render("fornecedor/index",{fornecedores:arrayFornecedores})
     }).catch((err)=>{
         console.log(err)
     })
 })
 
-router.post("/cadastro",(req, res)=>{
-    
+router.get("/cadastro",(req, res)=>{
+    res.render("fornecedor/cadastro")
+})
+
+router.post("/novo",(req,res)=>{
     modelFornecedor.create({
-        NOME:req.body.NOME,
-        AREA_ATUACAO:req.body.AREA_ATUACAO,
-        OBSERVACAO:req.body.OBSERVACAO
+        NOME:req.body.Nome,
+        AREA_ATUACAO:req.body.AreaAtuacao,
+        OBSERVACAO:req.body.Observacoes
     }).then(()=>{
-        res.send("Fornecedor cadastrado com sucesso")
+        console.log("Fornecedor cadastrado com sucesso")
+        return alert("Gravado com sucesso")
+       
     }).catch((err)=>{
-        res.send("Ocorreu um erro ao cadastrar o fornecedor "+err)
+        console.log("Ocorreu um erro ao cadastrar o fornecedor "+err)
     })
 })
 

@@ -1,0 +1,75 @@
+.form_cad {
+    width: 790px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+input:focus {
+    outline: none;
+}
+
+form input[type=text] {
+    width: 305px;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px #8b8b8b59 solid;
+    border-radius: 5px;
+}
+
+form input[type=text]:last-of-type {
+    width: 305px;
+    margin-right: 0;
+}
+
+form input[type=date] {
+    width: 160px;
+    margin-right: 5px;
+    padding: 8px;
+    border: 1px #8b8b8b59 solid;
+    border-radius: 5px;
+}
+
+.form_cad textarea {
+    width: 790px;
+    margin-top: 30px;
+    margin-right: 30px;
+    border: 1px #8b8b8b59 solid;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+}
+
+.form_cad textarea {
+    outline: none;
+}
+
+.form_cad textarea::placeholder {
+    color: #8b8b8b;
+}
+
+.btn_form {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.form_cad input[type=button] {
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: #ED561B;
+    cursor: pointer;
+}
+.form_cad input[type=submit] {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: #1AB394;
+    cursor: pointer;
+}

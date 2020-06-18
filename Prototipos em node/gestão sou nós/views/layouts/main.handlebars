@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sou nos</title>
+        <link rel="stylesheet" type=" text/css" href="/css/index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c292e26a0d.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container_header">
+                <h1>GESTÃO FINANCEIRA - SOU NÓS</h1>
+                <div class="icones_header">
+                    <i class="far fa-bell"></i>
+                    <i class="fas fa-power-off"></i>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <nav>
+                <div class="img_perfil">
+                    <img src="/images/img_perfil.jpg" alt="">
+                </div>
+                <i class="fas fa-cog img_perfil_config"></i>
+                <ul>
+                    <a href="/">
+                        <li><span>Início</span><i class="fas fa-chevron-down"></i></li>
+                    </a>
+                    <a href="/fornecedor">
+                        <li><span>Cadastro de fornecedores</span><i class="fas fa-chevron-down"></i></li>
+                    </a>
+                    <a href="/orcamento">
+                        <li><span>Orçamentos</span><i class="fas fa-chevron-down"></i></li>
+                    </a>
+                    <a href="/material">
+                        <li><span>Material de construção</span><i class="fas fa-chevron-down"></i></li>
+                    </a>
+                    <a  class="hover_menu">
+                        <li><span>Mão de obra</span><i class="fas fa-chevron-down"></i></li>
+                    </a>
+                        <ul class="sub_menu">
+                            <li><a href="/profissional"><span>Profissionais</span></a><i class="fas fa-chevron-down"></i></li>
+                            <li><a href="/demanda"><span>Demandas</span></a><i class="fas fa-chevron-down"></i></li>
+                        </ul>
+                    <a href="#">
+                        <li><span>Relatórios</span><i class="fas fa-chevron-down"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><span>Dashboard</span><i class="fas fa-chevron-down"></i></li>
+                    </a>
+                </ul>
+            </nav>
+            <div>
+             {{{body}}}
+            </div>
+        </div>
+    </body>
+</html>

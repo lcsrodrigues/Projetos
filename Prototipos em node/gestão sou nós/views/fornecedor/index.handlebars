@@ -1,0 +1,49 @@
+<link rel="stylesheet" type=" text/css" href="/css/fornecedores.css">
+
+<div class="container2">
+    <div class="info_pesquisa">
+        <h2 class="titulo_h2_sub_pag">Fornecedores</h2>
+        <div class="busca_area">
+            <form class="form_text_seach">
+                <input list="fornecedores" placeholder="Procurar">
+                <datalist id="fornecedores">
+                    <option value="fornecedor1">
+                    <option value="fornecedor2">
+                    <option value="fornecedor3">
+                    <option value="fornecedor4">
+                </datalist>
+            </form>
+            <a href="/fornecedor/cadastro"><img class="plus" src="../images/plus.svg" alt=""></a>
+        </div>
+    </div>
+    <div class="titulo_id">
+        <ul>
+            <li>
+                <h3 class="larg_forn">Ações</h3>
+            </li>
+            <li>
+                <h3 class="larg_forn">Nome</h3>
+            </li>
+            <li>
+                <h3 class="larg_forn">Area de atuação</h3>
+            </li>
+            <li>
+                <h3 class="larg_forn">Data</h3>
+            </li>
+        </ul>
+    </div>
+    <div class="item_lista_forn">
+        {{#each fornecedores}}
+            <div class="itens">
+                <div class="icon_acoes">
+                    <img src="../images/lixo.svg" alt="">
+                    <img src="../images/lapis.svg" alt="">
+                </div>
+                    <span class="nome_forn">{{nome}}</span>
+                    <span class="area_forn">{{area_atuacao}}</span>
+                    <span class="data_forn">{{created}}</span>
+            </div>
+            {{else}}
+        {{/each}}
+    </div>
+</div>
