@@ -4,7 +4,7 @@ const modelFornecedor = require("../../models/Fornecedor")
 const util = require("../../assets/js/util")
 
 router.get("/",(req, res)=>{
-
+    
     modelFornecedor.findAll().then((fornecedores)=>{
         var arrayFornecedores = []
         for(let I=0; I<fornecedores.length; I++)
@@ -36,38 +36,60 @@ router.post("/novo",(req,res)=>{
         OBSERVACAO:req.body.Observacoes
     }).then(()=>{
         console.log("Fornecedor cadastrado com sucesso")
-        return alert("Gravado com sucesso")
+        res.redirect("/fornecedor")
        
     }).catch((err)=>{
         console.log("Ocorreu um erro ao cadastrar o fornecedor "+err)
     })
 })
 
-router.put("/edicao/:id",(req, res)=>{
+router.get("/edicao/:id",(req,res)=>{
+    
+    modelFornecedor.findAll({
+        where:{
+            id:req.params.id
+        }
+    }).then((fornecedor)=>{
+        
+        let obj = {
+            "id":fornecedor[0].id,
+            "nome":fornecedor[0].NOME,
+            "area_atuacao":fornecedor[0].AREA_ATUACAO,
+            "observacao":fornecedor[0].OBSERVACAO
+        }
+
+        res.render("fornecedor/edicao",{fornecedor:obj})
+
+    }).catch((err)=>{
+        console.log("Ocorreu um erro "+err)
+    })
+})
+
+router.post("/editar/:id",(req, res)=>{
     modelFornecedor.update(
     {
-        NOME:"Clodoaldo",
-        AREA_ATUACAO:"Front-end",
-        OBSERVACAO:"Lorem Ipsum Dolor Sit Amet"
+        NOME:req.body.Nome,
+        AREA_ATUACAO:req.body.AreaAtuacao,
+        OBSERVACAO:req.body.Observacoes
     },
     {
         where:{
             id:req.params.id
         }
     }).then((data)=>{
-        res.send("Fornecedor alterado com sucesso "+data)
+        res.redirect("/fornecedor")
     }).catch((err)=>{
         res.send("Ocorreu um erro ao alterar o fornecedor "+err)
     })
 })
 
-router.delete("/delete/:id",(req,res)=>{
+router.get("/delete/:id",(req,res)=>{
     modelFornecedor.destroy({
         where:{
             id:req.params.id
         }
     }).then(()=>{
-        res.send("Fornecedor removido com sucesso.")
+        res.redirect("/fornecedor")
     }).catch((err)=>{
         res.send("Ocorreu um erro ao deletar o fornecedor "+err)
     })

@@ -33,17 +33,22 @@
         </ul>
     </div>
     <div class="item_lista_forn">
+        <ul>
         {{#each fornecedores}}
-            <div class="itens">
-                <div class="icon_acoes">
-                    <img src="../images/lixo.svg" alt="">
-                    <img src="../images/lapis.svg" alt="">
+            <li>
+                <div class="itens">
+                    <div class="icon_acoes">
+                        <a href="/fornecedor/delete/{{id}}"><img src="../images/lixo.svg" alt=""></a>
+                        <a href="/fornecedor/edicao/{{id}}"><img src="../images/lapis.svg" alt=""></a>
+                    </div>
+                        <span class="nome_forn">{{nome}}</span>
+                        <span class="area_forn">{{area_atuacao}}</span>
+                        <span class="data_forn">{{created}}</span>
                 </div>
-                    <span class="nome_forn">{{nome}}</span>
-                    <span class="area_forn">{{area_atuacao}}</span>
-                    <span class="data_forn">{{created}}</span>
-            </div>
+            </li>
             {{else}}
+            <li><span>Nenhum fornecedor cadastrado.</span></li>
         {{/each}}
+        </ul>
     </div>
 </div>
