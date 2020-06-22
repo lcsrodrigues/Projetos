@@ -1,0 +1,48 @@
+<link rel="stylesheet" type=" text/css" href="/css/materiais.css">
+
+<div class="container2">
+    <div class="info_pesquisa">
+        <h2 class="titulo_h2_sub_pag">Materiais</h2>
+        <div class="busca_area">
+            <form class="form_text_seach">
+                <input list="materiais" placeholder="Procurar">
+            </form>
+            <a href="/material/cadastro"><img class="plus" src="../images/plus.svg" alt=""></a>
+        </div>
+    </div>
+    <div class="titulo_id">
+        <ul>
+            <li>
+                <h3 class="larg_forn">Ações</h3>
+            </li>
+            <li>
+                <h3 class="larg_forn">Nome</h3>
+            </li>
+            <li>
+                <h3 class="larg_forn">Fornecedor</h3>
+            </li>
+            <li>
+                <h3 class="larg_forn">Preço</h3>
+            </li>
+        </ul>
+    </div>
+    <div class="item_lista_forn">
+        <ul>
+        {{#each material}}
+            <li>
+                <div class="itens">
+                    <div class="icon_acoes">
+                        <a href="/material/delete/{{id}}"><img src="../images/lixo.svg" alt=""></a>
+                        <a href="/material/edicao/{{id}}"><img src="../images/lapis.svg" alt=""></a>
+                    </div>
+                        <span class="nome_forn">{{nome}}</span>
+                        <span class="area_forn">{{fornecedor}}</span>
+                        <span class="data_forn">{{preco}}</span>
+                </div>
+            </li>
+            {{else}}
+                <li><span>Nenhum fornecedor cadastrado.</span></li>
+        {{/each}}
+        </ul>
+    </div>
+</div>

@@ -1,4 +1,6 @@
 const db = require("../config/connection")
+const Pagamento = require("../models/Pagamento")
+const Fornecedor = require("../models/Fornecedor")
 
 const Material = db.define("material",{
     NOME:{
@@ -22,23 +24,11 @@ const Material = db.define("material",{
     },
     OBSERVACOES:{
         type:db.Sequelize.STRING
-    },
-    FORNECEDOR_ID:{
-        type:db.Sequelize.INTEGER,
-        references:{
-            model:"fornecedors",
-            key:"id"
-        }
-    },
-    PAGAMENTO_ID:{
-        type:db.Sequelize.INTEGER,
-        references:{
-            model:"pagamentos",
-            key:"id"
-        }
     }
 })
 
+Material.belongsTo(Fornecedor,{as: "fornecedor",foreignKey:"FORNECEDOR_ID"})
+Material.belongsTo(Pagamento,{as: "pagamento",foreignKey:"PAGAMENTO_ID"})
 //Material.sync({force:true})
 
 module.exports = Material;

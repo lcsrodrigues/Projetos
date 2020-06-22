@@ -1,0 +1,31 @@
+<link rel="stylesheet" type=" text/css" href="/css/materiais.css">
+
+<div class="container2">
+    <form class="form_cad" action="/material/novo" method="POST">
+        <input name="Nome" type="text" placeholder="Material">
+        <input name="Quantidade" type="text" placeholder="Quantidade">
+        <select name="Fornecedor">
+            {{#each fornecedores}}
+                <option value="{{id}}">{{nome}}</option>
+            {{/each}}
+        </select>
+        <input name="Preco" type="text" placeholder="Preço">
+        <input name = "Data" type="date" />
+        <select name="Pagamento">
+            {{#each pagamentos}}
+                <option value="{{id}}">{{nome}}</option>
+            {{/each}}
+        </select>
+        <select name="Parcelas">
+            <option value="1">1x</option>
+            <option value="2">2x</option>
+            <option value="3">3x</option>
+            <option value="4">4x</option>
+        </select>
+        <textarea name="Observacoes" rows="10" cols="30" placeholder="Observações"></textarea>
+        <div class="btn_form">                
+            <input type="button" value="Cancelar" onclick="window.history.back()"/>
+            <input type="submit" value="Salvar" id="btnSalvar"/>
+        </div>
+    </form>
+</div>

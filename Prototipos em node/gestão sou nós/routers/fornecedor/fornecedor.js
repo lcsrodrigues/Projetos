@@ -1,11 +1,11 @@
 const express = require("express")
 const router = express.Router()
-const modelFornecedor = require("../../models/Fornecedor")
+const Fornecedor = require("../../models/Fornecedor")
 const util = require("../../assets/js/util")
 
 router.get("/",(req, res)=>{
     
-    modelFornecedor.findAll().then((fornecedores)=>{
+    Fornecedor.findAll().then((fornecedores)=>{
         var arrayFornecedores = []
         for(let I=0; I<fornecedores.length; I++)
         {
@@ -30,7 +30,7 @@ router.get("/cadastro",(req, res)=>{
 })
 
 router.post("/novo",(req,res)=>{
-    modelFornecedor.create({
+    Fornecedor.create({
         NOME:req.body.Nome,
         AREA_ATUACAO:req.body.AreaAtuacao,
         OBSERVACAO:req.body.Observacoes
@@ -45,7 +45,7 @@ router.post("/novo",(req,res)=>{
 
 router.get("/edicao/:id",(req,res)=>{
     
-    modelFornecedor.findAll({
+    Fornecedor.findAll({
         where:{
             id:req.params.id
         }
@@ -66,7 +66,7 @@ router.get("/edicao/:id",(req,res)=>{
 })
 
 router.post("/editar/:id",(req, res)=>{
-    modelFornecedor.update(
+    Fornecedor.update(
     {
         NOME:req.body.Nome,
         AREA_ATUACAO:req.body.AreaAtuacao,
@@ -84,7 +84,7 @@ router.post("/editar/:id",(req, res)=>{
 })
 
 router.get("/delete/:id",(req,res)=>{
-    modelFornecedor.destroy({
+    Fornecedor.destroy({
         where:{
             id:req.params.id
         }
@@ -96,8 +96,8 @@ router.get("/delete/:id",(req,res)=>{
 })
 
 router.get("/count",(req,res)=>{
-    modelFornecedor.count().then(c => {
-        res.send("Total de fornecedores "+c)
+    Fornecedor.count().then(c => {
+        return c
     }).catch((err)=>{
         res.send("Ocorreu um erro "+err)
     })
