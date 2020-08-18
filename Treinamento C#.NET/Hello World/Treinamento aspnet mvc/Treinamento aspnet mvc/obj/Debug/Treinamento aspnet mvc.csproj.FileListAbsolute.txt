@@ -1,0 +1,69 @@
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\roslyn\csc.exe
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\roslyn\System.Collections.Immutable.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\roslyn\vbc.exe
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\roslyn\VBCSCompiler.exe
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\roslyn\VBCSCompiler.exe.config
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Treinamento aspnet mvc.dll.config
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Treinamento aspnet mvc.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Treinamento aspnet mvc.pdb
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Antlr3.Runtime.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\EntityFramework.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\EntityFramework.SqlServer.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.Google.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Web.Infrastructure.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Newtonsoft.Json.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Owin.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.Helpers.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.Mvc.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.Optimization.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.Razor.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.WebPages.Deployment.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.WebPages.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.WebPages.Razor.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\WebGrease.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.Helpers.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.Mvc.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.Optimization.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.Razor.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.WebPages.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.WebPages.Deployment.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\System.Web.WebPages.Razor.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Antlr3.Runtime.pdb
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Newtonsoft.Json.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\EntityFramework.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\EntityFramework.SqlServer.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.Google.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\obj\Debug\Treinamento aspnet mvc.csprojResolveAssemblyReference.cache
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\obj\Debug\Treinamento aspnet mvc.dll
+D:\Projetos\Treinamento C#.NET\Hello World\Treinamento aspnet mvc\Treinamento aspnet mvc\obj\Debug\Treinamento aspnet mvc.pdb

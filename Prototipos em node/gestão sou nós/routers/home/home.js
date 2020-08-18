@@ -1,7 +1,10 @@
+const React = require('react');
+const ReactDOM = require('react-dom');
 const express = require("express")
 const router = express.Router()
 const Fornecedor = require("../../models/Fornecedor")
 const Material = require("../../models/Material")
+const ReactHome = require("../../reactPages/Home")
 
 router.get("/",(req, res)=>{
 
@@ -12,7 +15,10 @@ router.get("/",(req, res)=>{
         totalFornecedor = total;
         Material.count().then(total =>{
             totalMaterial = total;
-            res.render("home/index",{totalFornecedor:totalFornecedor, totalMaterial:totalMaterial})
+
+            ReactDOM.render(<ReactHome.Home />)
+
+            //res.render("home/index",{totalFornecedor:totalFornecedor, totalMaterial:totalMaterial})
         }).catch((err)=>{
             res.send("Ocorreu um erro "+err)
         })

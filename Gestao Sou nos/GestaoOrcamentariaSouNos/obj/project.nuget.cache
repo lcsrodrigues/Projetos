@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "U7UO7yyDWoL1Y4Rz7BObKTT9B76Y/P19iVMS3l80d3aokIbjWkYEWcoQOT971JF5FLWbjdKq+bTJc4ORASSY8Q==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\Gestao Sou nos\\GestaoOrcamentariaSouNos\\GestaoOrcamentariaSouNos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lcs-r\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\lcs-r\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\lcs-r\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\lcs-r\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
