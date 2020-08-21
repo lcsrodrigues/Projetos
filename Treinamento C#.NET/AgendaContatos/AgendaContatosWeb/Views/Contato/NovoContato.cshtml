@@ -1,0 +1,55 @@
+﻿@model AgendaContatosWeb.ViewModels.NovoContatoViewModel
+@{
+    ViewBag.Title = "NovoContato";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string msgErroViewBag = string.Empty;
+    string msgErroViewData = string.Empty;
+    string msgErroTempData = string.Empty;
+    string msgErroViewModel = string.Empty;
+
+    if(null != ViewBag.Error)
+    {
+        msgErroViewBag = ViewBag.Error;
+    }
+
+    if(null != ViewData["Error"])
+    {
+        msgErroViewData = ViewData["Erro"].ToString();
+    }
+
+    if(null != TempData["Erro"])
+    {
+        msgErroTempData = TempData["Erro"].ToString();
+    }
+
+    if(null != Model)
+    {
+        msgErroViewModel = Model.msgErro;
+    }
+}
+
+<h2>Estou na Contato/NovoContato</h2>
+
+<div>
+    <p>Formulário de Criação de Contatos</p>
+</div>
+
+<div>
+    <form id="frmNovoContato" method="POST" action="@Url.Action("GravarNovoContato","Contato")">
+        <div>
+            <label>Nome:</label>
+            <input type="text" placeholder="Nome" name="Nome" value="@(null != Model ? Model.Nome : "" )"/>
+
+            <label>Telefone:</label>
+            <input type="number" placeholder="Telefone" name="Telefone" value="@(null != Model ? Model.Telefone : null )"/>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Email" name="Email" value="@(null != Model ? Model.Email : "" )"/>
+        </div>
+        <div>
+            <input type="submit" value="Gravar" />
+            <input type="reset" value="Limpar" />
+        </div>
+    </form>
+</div>

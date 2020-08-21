@@ -1,0 +1,12 @@
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosRepository\bin\Debug\AgendaContatosRepository.exe.config
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosRepository\bin\Debug\AgendaContatosRepository.exe
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosRepository\bin\Debug\AgendaContatosRepository.pdb
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosRepository\bin\Debug\EntityFramework.dll
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosRepository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosRepository\bin\Debug\EntityFramework.xml
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosRepository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosRepository\obj\Debug\AgendaContatosRepository.csprojResolveAssemblyReference.cache
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosRepository\obj\Debug\AgendaContatosRepository.exe
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosRepository\obj\Debug\AgendaContatosRepository.pdb
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosRepository\obj\Debug\AgendaContatosRepository.Migrations.Initial.resources
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosRepository\obj\Debug\AgendaContatosRepository.csproj.GenerateResource.Cache

@@ -1,0 +1,31 @@
+﻿@model AgendaContatosWeb.ViewModels.NovoContatoViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<AgendaContatosWeb.ViewModels.NovoContatoViewModel> listaContatos = new List<AgendaContatosWeb.ViewModels.NovoContatoViewModel>();
+    listaContatos = ViewBag.listaContatos;
+}
+
+<h2>Index</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (AgendaContatosWeb.ViewModels.NovoContatoViewModel contatoVM in listaContatos)
+    {
+        <tr>
+            <td>@contatoVM.Id</td>
+            <td>@contatoVM.Nome</td>
+            <td>@contatoVM.Telefone</td>
+            <td>@contatoVM.Email</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
