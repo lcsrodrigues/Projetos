@@ -35,8 +35,8 @@ namespace AgendaContatosRepository.Services
         {
             try
             {
-                List<Contato> contatos = new List<Contato>();
-                return context.Contatos.ToList();
+                //return context.Contatos.Where(x => x.Id == 1).ToList(); //expressões LAMBDA
+               return context.Contatos.ToList();
             }
             catch (Exception)
             {

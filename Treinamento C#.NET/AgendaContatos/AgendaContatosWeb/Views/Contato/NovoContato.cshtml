@@ -37,6 +37,7 @@
 
 <div>
     <form id="frmNovoContato" method="POST" action="@Url.Action("GravarNovoContato","Contato")">
+
         <div>
             <label>Nome:</label>
             <input type="text" placeholder="Nome" name="Nome" value="@(null != Model ? Model.Nome : "" )"/>
@@ -53,3 +54,7 @@
         </div>
     </form>
 </div>
+
+@section scripts {
+    @Scripts.Render("~/Scripts/contato.js")
+}
