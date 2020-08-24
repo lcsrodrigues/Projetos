@@ -1,0 +1,10 @@
+﻿body { margin:0; padding:0; border:0; background-color:#f5f6fa; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; overflow:hidden; }
+body header { width:100%; background-color:#3498db; text-align:center; }
+.container { max-width:calc(1024px - 20px); width:100%; margin:0 auto; padding:10px; }
+body header .container span { font-size:18px; font-weight:bold; text-transform:uppercase; color:#ecf0f1 }
+
+body aside { float:left; width:calc(20% - 21px); background-color:#f5f6fa; min-height:600px; padding:10px; border-right:1px; border-right-color:#bdc3c7; border-right-style:solid; }
+body aside ul { margin:0; padding:0; }
+body aside ul li { list-style-type:none; margin:10px 0; padding:5px; border:0; text-align:center; cursor:pointer; }
+body aside ul li:hover { background-color:#bdc3c7; }
+body aside ul li a { text-decoration:none; color:#7f8c8d }
