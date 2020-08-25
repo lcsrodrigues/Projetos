@@ -1,0 +1,4 @@
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosADO\bin\Debug\AgendaContatosADO.dll
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosADO\bin\Debug\AgendaContatosADO.pdb
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosADO\obj\Debug\AgendaContatosADO.dll
+D:\Projetos\Treinamento C#.NET\AgendaContatos\AgendaContatosADO\obj\Debug\AgendaContatosADO.pdb

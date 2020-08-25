@@ -16,10 +16,9 @@
     <div class="container">
         <aside>
             <ul>
-                <li><a href="/Index">Index</a></li>
-                <li><a href="@Url.Action("Sobre","Home")">Home/Sobre</a></li>
-                <li>@Html.ActionLink("Contato/Index", "Index", "Contato")</li>
-                <li><a href="@Url.Action("NovoContato","Contato")">Novo Contato</a></li>
+                @*<li><a href="@Url.Action("Sobre","Home")">Home/Sobre</a></li>*@
+                <li>@Html.ActionLink("Listar contatos", "Index", "Contato")</li>
+                <li><a href="@Url.Action("NovoContato","Contato")">Criar contato</a></li>
             </ul>
         </aside>
         @RenderBody()

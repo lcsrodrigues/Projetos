@@ -1,8 +1,13 @@
 ﻿content { float:left; width:calc(80% - 20px); padding:10px; }
-content ul { margin:0; padding:0; }
-content ul li.card { list-style-type:none; background-color:#00a8ff; width:150px; min-height:100px; padding:10px; border-radius:10px; cursor:pointer; box-shadow:2px 2px; float:left; margin:5px; }
+content ul { margin:0; padding:0; overflow:hidden; }
+content ul li.card { list-style-type:none; background-color:#00a8ff; width:150px; min-height:100px; padding:10px; border-radius:10px; cursor:pointer; box-shadow:2px 2px; float:left; margin:5px; overflow:hidden; }
 content ul li.card:hover { box-shadow:4px 4px; }
+content ul li.card:hover .actions{ display:block; }
 content ul li .sideTop { overflow:hidden; margin:0 0 5px 0  }
-content ul li .sideTop img { width:60px; height:60px; float:left; margin:0 10px 0 0; }
+content ul li .sideTop .actions{ float:left; width:50%; overflow:hidden; display:none; }
+content ul li .sideTop .actions a{ overflow:hidden; }
+content ul li .sideTop .actions a img{ width:20px; float:right; margin:0 5px; }
+content ul li .sideTop .perfil{ float:left; width:50%;}
+content ul li .sideTop .perfil img { width:60px; height:60px; float:left; margin:0 10px 0 0; }
 content ul li span { font-size:14px; color:#fff; }
 content ul li span.txtNome { font-weight:bold; }

@@ -14,10 +14,16 @@ namespace AgendaContatosWeb.Controllers
         // GET: Contato
         public ActionResult Index()
         {
+            ViewBag.listaContatos = ListarTodosContatos();
+            return View();
+        }
+
+        public List<NovoContatoViewModel> ListarTodosContatos()
+        {
+            NovoContatoViewModel contatoVM;
+            List<Contato> contatos = new List<Contato>();
             ContatoService contatoServico = new ContatoService();
             List<NovoContatoViewModel> contatosVM = new List<NovoContatoViewModel>();
-            List<Contato> contatos = new List<Contato>();
-            NovoContatoViewModel contatoVM;
 
             contatos = contatoServico.ListarTodos();
 
@@ -32,8 +38,7 @@ namespace AgendaContatosWeb.Controllers
 
                 contatosVM.Add(contatoVM);
             }
-            ViewBag.listaContatos = contatosVM;
-            return View();
+            return contatosVM;
         }
 
         public ActionResult NovoContato()
@@ -46,7 +51,6 @@ namespace AgendaContatosWeb.Controllers
         {
             try
             {
-
                 ContatoService contatoServico = new ContatoService();
 
                 string msgErro = string.Empty;
@@ -77,12 +81,66 @@ namespace AgendaContatosWeb.Controllers
 
                 contatoServico.Inserir(new Contato { Email = novoContatoVM.Email, Nome = novoContatoVM.Nome, Telefone = novoContatoVM.Telefone });
 
-                return View("SuccessoNovoContato");
+                ViewBag.listaContatos = ListarTodosContatos();
+                return View("Index");
             }
             catch (Exception)
             {
                 throw;
             }
+        }
+
+        public ActionResult EditarContato(int id)
+        {
+            ContatoService contatoService = new ContatoService();
+            Contato contato = new Contato();
+
+            contato = contatoService.listarPorId(id);
+
+            return View("EditarContato",contato);
+        }
+
+        public ActionResult SalvarAlteracoesNovoContato(NovoContatoViewModel contatoEditVM)
+        {
+            try
+            {
+                List<NovoContatoViewModel> contatosVM = new List<NovoContatoViewModel>();
+                ContatoService contatoService = new ContatoService();
+                Contato contato = new Contato();
+
+                contato.Id = contatoEditVM.Id;
+                contato.Nome = contatoEditVM.Nome;
+                contato.Email = contatoEditVM.Email;
+                contato.Telefone = contatoEditVM.Telefone;
+
+                contatoService.EditarContato(contato);
+                ViewBag.listaContatos = ListarTodosContatos();
+
+                return View("Index");
+                
+            }catch(Exception)
+            {
+                throw;
+            }
+        }
+
+        public ActionResult DeletarContato(int id)
+        {
+            try
+            {
+                ContatoService contatoService = new ContatoService();
+                if (contatoService.DeletarContato(id))
+                {
+                    ViewBag.listaContatos = ListarTodosContatos();
+                    return View("Index");
+                }
+                return View("Erro");
+            }
+            catch(Exception)
+            {
+                throw;
+            }
+
         }
     }
 }

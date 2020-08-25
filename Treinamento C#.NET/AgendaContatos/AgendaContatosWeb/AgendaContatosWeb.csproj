@@ -140,7 +140,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\css\_contato.css" />
+    <Content Include="Assets\css\_editContato.css" />
     <Content Include="Assets\css\_layout.css" />
+    <Content Include="Assets\css\_novoContato.css" />
+    <Content Include="Assets\images\btnDelete.svg" />
+    <Content Include="Assets\images\btnEdit.svg" />
     <Content Include="Assets\js\script.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -174,6 +178,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+    <Content Include="Views\Contato\EditarContato.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AgendaContatosRepository\AgendaContatosRepository.csproj">

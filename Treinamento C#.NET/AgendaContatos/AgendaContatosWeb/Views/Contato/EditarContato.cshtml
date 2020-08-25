@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "EditarContato";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Styles.Render("~/Assets/css/_editContato.css")
+
+<div id="editContato">
+    <h2>Editar Contato</h2>
+    <div>
+        <form id="frmNovoContato" method="POST" action="@Url.Action("SalvarAlteracoesNovoContato","Contato")">
+
+            <div>
+                <input type="hidden" name="Id" value="@(null != Model ? Model.Id : 0 )" />
+
+                 <label>Nome:</label>
+                <input type="text" placeholder="Nome" name="Nome" value="@(null != Model ? Model.Nome : "" )" />
+            </div>
+            <div>
+                <label>Telefone:</label>
+                <input type="number" placeholder="Telefone" name="Telefone" value="@(null != Model ? Model.Telefone : null )" />
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" placeholder="Email" name="Email" value="@(null != Model ? Model.Email : "" )" />
+            </div>
+            <div>
+                <input type="submit" value="Salvar" />
+            </div>
+        </form>
+    </div>
+</div>
+

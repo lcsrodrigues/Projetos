@@ -29,32 +29,31 @@
     }
 }
 
-<h2>Estou na Contato/NovoContato</h2>
+@Styles.Render("~/Assets/css/_novoContato.css")
+<div id="novoContato">
+    <h2>Novo Contato</h2>
+    <div>
+        <form id="frmNovoContato" method="POST" action="@Url.Action("GravarNovoContato","Contato")">
 
-<div>
-    <p>Formulário de Criação de Contatos</p>
+            <div>
+                <label>Nome:</label>
+                <input type="text" placeholder="Nome" name="Nome" value="@(null != Model ? Model.Nome : "" )" />
+            </div>
+            <div>
+                <label>Telefone:</label>
+                <input type="number" placeholder="Telefone" name="Telefone" value="@(null != Model ? Model.Telefone : null )" />
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" placeholder="Email" name="Email" value="@(null != Model ? Model.Email : "" )" />
+            </div>
+            <div>
+                <input type="submit" value="Gravar" />
+                <input type="reset" value="Limpar" />
+            </div>
+        </form>
+    </div>
 </div>
-
-<div>
-    <form id="frmNovoContato" method="POST" action="@Url.Action("GravarNovoContato","Contato")">
-
-        <div>
-            <label>Nome:</label>
-            <input type="text" placeholder="Nome" name="Nome" value="@(null != Model ? Model.Nome : "" )"/>
-
-            <label>Telefone:</label>
-            <input type="number" placeholder="Telefone" name="Telefone" value="@(null != Model ? Model.Telefone : null )"/>
-
-            <label>Email:</label>
-            <input type="email" placeholder="Email" name="Email" value="@(null != Model ? Model.Email : "" )"/>
-        </div>
-        <div>
-            <input type="submit" value="Gravar" />
-            <input type="reset" value="Limpar" />
-        </div>
-    </form>
-</div>
-
 @section scripts {
     @Scripts.Render("~/Scripts/contato.js")
 }
